@@ -1,0 +1,2940 @@
+@font-face {
+    font-family:roboto-regular ;
+    src: url(./Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family:roboto-bold;
+    src: url(./Roboto/Roboto-Bold.ttf);
+}
+html,body{
+    width: 100% !important;
+    box-sizing: border-box;
+}
+
+.header{
+    a{
+        text-decoration: none ;
+        color: black;
+        &:hover{color: skyblue;}
+    }
+    box-shadow: 0px 0px 1px black;
+    height: 11% ;
+    width: 100% !important;
+    z-index: 2;
+    position: fixed;
+    background-color: white;
+    top: 0px;
+
+    
+    div{
+        font-family: roboto-regular;
+        font-weight: 400;
+        font-size: 16px;
+        }
+    .head1{
+        margin-left: 7%;
+        img{
+            margin-top: -2%;
+        }
+        img, div{
+            &:hover{color: skyblue;}
+            margin-right: 40px;
+        }
+      
+        }
+    .head2{
+        margin-right: 4%;
+         div{
+            &:hover{color: skyblue;} 
+            margin-right: 40px;
+                font-family: roboto-regular;
+                font-weight: 400;
+                font-size: 16px;
+                margin-top: 2%;
+        }
+
+        .post{
+            height: 35px;
+            width: 110px;
+            align-items: center;
+            justify-content: center;
+            background-color: #ff0099f8;
+            display: flex;
+            color: white;
+            font-family: roboto-regular;
+            font-weight: 700;
+            font-size: 14px;
+            margin-top: 0%;
+          
+            &:hover
+            {color: white;
+                background-color: #FA5F9B;
+            }
+            
+        }
+        }
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+button:focus .whyspring{
+        display: inherit;
+}
+.header2{
+        height: 50px;
+        background-color: #0E1724;
+        width: 100% !important;
+        margin-top: 5%;
+        div{
+            font-family: roboto-regular;
+            font-weight: 400;
+            font-size: 14px;
+            }
+        .head3{
+            width: 100%;
+            margin-left: 7%;
+            button{
+                background-color: transparent;
+                border: none;
+                margin-right: 30px;
+                &:hover{
+                    background-color: #323A45;
+                    height: 100%;
+                }
+                }
+                button:focus .whyspring{
+                    display: inherit;
+                }
+            .whyspring{
+                width: 180px;
+                height: fit-content;
+                position: absolute;
+                background-color:#FFFFFF ;
+                top: 130px;
+                display: flex;
+                justify-content: center;
+                text-align: left;
+               padding-top: 20px;
+                padding-bottom: 20px;
+               z-index: 30000;
+               display: none;
+               
+               div{
+                   margin-left: 10px;
+               }
+    
+            }
+            
+        }
+}
+.play{
+ position: relative;
+ img{
+     height: 110vh ;
+ }
+        .playy{
+            width: 37%;
+            height: min-content;
+            position: absolute;
+            z-index: 1;
+            margin-top: -42%;
+            margin-left: 7%;
+            h1{
+                font-family: roboto-bold;
+                font-weight: 700;
+                font-size: 41px;
+                }
+                .okay{
+                    display: none;
+                }
+                h5{
+                    font-family: roboto-regular;
+                    font-weight: 400;
+                    font-size: 20px;
+                    }
+             .money{
+                 display: flex;
+                 .hire{
+                     &:hover{ 
+                         background-color: #FA5F9B;
+                        }
+                    width: 35%;
+            height: 50px;
+             background-color:#f20091;
+             p{
+                font-family: roboto-regular;
+                font-weight: 700;
+                font-size: 20px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+                }
+            .hiree{
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                margin-top: 8px;   
+            }
+        }
+
+        
+    }
+}
+.man{
+    position: absolute;
+    display: flex;
+    margin-top: -5%;
+    margin-left: 15%;
+    
+    width: 70%;
+    .hire{
+        &:hover{ background-color: white;}
+       width: 80%;
+height: 67px;
+background-color:white;
+p{
+   font-family: roboto-regular;
+   font-weight: 400;
+   font-size: 18px;
+   a{
+       text-decoration: none;
+       color: black;
+       margin-top: 2%;
+   }
+   }
+.hiree{
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   margin-top: 8px;   
+}
+}
+    .earn{
+        &:hover{ background-color: #3593c9;
+        }
+       width: 80%;
+height: 67px;
+background-color:#139FF0;
+p{
+   font-family: roboto-regular;
+   font-weight: 400;
+   font-size: 18px;
+   a{
+       text-decoration: none;
+       color: white;
+       margin-top: 2%;
+   }
+   }
+.hiree{
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   margin-top: 8px;   
+}
+}
+
+}
+.mann{
+    height: 70px;
+    box-shadow: 0px 0px 1px black;
+    background-color: white;
+     display: none;
+    button{
+        font-family: roboto-regular;
+        font-weight: 400;
+        font-size: 18px;
+    div{
+        margin-top: 2.5%;
+         margin-left: 3%;
+    }
+        i{
+            right: 3%; 
+            position: absolute;
+            margin-top: 2.5%;
+        }
+    }
+    button:focus .whyspring{
+        display: inherit;
+    }
+    .whyspring{
+        width: 100%;
+        height: 60px;
+        position: absolute;
+        background-color:white ;
+        display: flex;
+        text-align: center;
+    margin-top: 13%;
+      right: 0%;
+      display: none;
+      margin-bottom: 5%;
+      border-bottom:black;
+      div{
+        margin-left: 3%;
+        margin-top: 2.5%;
+      }
+    }
+}
+}  
+.body4{
+    width: 100%;
+    margin-top: 6%;
+    .chooseget{
+        width: 92%;
+        margin-left: 6%;
+        .choose{
+            font-family: roboto-bold;
+        font-weight: 700;
+        font-size: 41px;  
+        }
+        .get{
+            font-family: roboto-regular;
+            font-weight: 400;
+            font-size: 24px;
+        }
+        .house{
+            width: 100%;
+            .any{
+                width: 30%;
+                margin-right: 3%;
+                img{
+                    width: 80px;
+                    height: 120px;
+                }
+                .size{
+                    font-family: roboto-bold;
+                    font-weight: 700;
+                    font-size: 20px; 
+                }
+                .anyjob{
+                    font-family: roboto-regular;
+                    font-weight: 400;
+                    font-size: 18px; 
+                }  
+            }
+        }
+    }
+} 
+.body5{
+    width: 100%;
+    margin-top: 8%;
+    .body51{
+        width: 50%;
+      
+        img{
+            width: 75%;
+            margin-left: 14%;
+        }
+    }
+    .body52{
+        width: 50%;
+        margin-left: 3%;
+        .howdoes{
+            width: 95%;
+            .how{
+                font-size:41px ;
+                font-family: roboto-bold;
+                font-weight:700;
+            }
+            .house2{
+                width: 91%;
+               .post{
+                font-size:20px ;
+                font-family: roboto-bold    ;
+                font-weight:700;   
+               } 
+               .simply{
+                   margin-top: 2%;
+                font-size:16px ;
+                font-family: roboto-regular;
+                font-weight:400;
+               }
+            }
+            .postaproject{
+                
+            height: 45px;
+           width: 30%;
+            align-items: center;
+            justify-content: center;
+            background-color: #f20091;
+            display: flex;
+            color: white;
+            font-family: roboto-regular;
+            font-weight: 700;
+            font-size: 20px;
+          
+            &:hover
+            {color: white;
+                background-color: #FA5F9B;
+            }
+           
+            }
+        }
+    }
+}  
+.body6{
+  margin-top: 8%;
+  .body60{
+      display: none;
+      width: 50%;
+      img{
+            width: 75%; 
+        }
+  }
+    .body61{
+        width: 50%;
+        margin-left: 6%;
+        .control{
+            width: 100%;
+           .becontrol{
+            
+            font-family: roboto-bold;
+            font-size:41px ;
+            font-family: 700;
+           }
+           .usecontrol{
+            font-family: roboto-regular;
+            font-size:20px ;
+            font-family: 400;
+            width: 93%;
+           }
+        }
+        .mobile{
+            width: 100%;
+            .life{
+                width: 46%;
+                margin-right: 4%;
+                margin-top: 2%;
+                .lifechat{
+                    img{
+                        width: 80px;
+                        height: 120px;  
+                    }
+                }
+                .live{
+                    font-family: roboto-bold;
+                    font-size:20px;
+                    font-weight: 700;   
+                }
+                .chat{
+                    font-family: roboto-regular;
+                    font-size:20px;
+                    font-weight: 400;
+                    margin-top: 2%;
+                }
+            }
+            .lifee{
+                width: 46%;
+                margin-right: 4%;
+                margin-top: 2%;
+                .lifechat{
+                    img{
+                        width: 80px;
+                        height: 120px;  
+                    }
+                }
+                .live{
+                    font-family: roboto-bold;
+                    font-size:20px;
+                    font-weight: 700; 
+                    margin-top: -8%;  
+                }
+                .chat{
+                    font-family: roboto-regular;
+                    font-size:20px;
+                    font-weight: 400;
+                    margin-top: 2%;
+                }
+            }
+           
+        }
+    }
+    .body62{
+            width: 50%;
+          img{
+                width: 75%; 
+            }
+        }  
+    
+}
+.body7{
+    width: 100%;
+    margin-top: 8%;
+    .body71{
+        width: 50%;
+      img{
+            width: 75%;
+            margin-left: 14%; 
+        }
+    } 
+    .body72{
+        width: 45%;
+        margin-left: 2%;
+        .control{
+            width: 100%;
+           .becontrol{
+            
+            font-family: roboto-bold;
+            font-size:41px ;
+            font-family: 700;
+           }
+           .usecontrol{
+            font-family: roboto-regular;
+            font-size:20px ;
+            font-family: 400;
+            width: 90%;
+           }
+        }
+        .mobile{
+            width: 100%;
+            .life{
+                width: 50%;
+                margin-right: 4%;
+                margin-top: 2%;
+                .lifechat{
+                    img{
+                        width: 80px;
+                        height: 120px;  
+                    }
+                }
+                .live{
+                    font-family: roboto-bold;
+                    font-size:20px;
+                    font-weight: 700;   
+                }
+                .chat{
+                    font-family: roboto-regular;
+                    font-size:20px;
+                    font-weight: 400;
+                    margin-top: 2%;
+                }
+            }
+            .lifee{
+                width: 35%;
+                margin-left: 7%;
+                margin-top: 2%;
+                .lifechat{
+                    img{
+                        width: 80px;
+                        height: 120px;  
+                    }
+                }
+                .live{
+                    font-family: roboto-bold;
+                    font-size:20px;
+                    font-weight: 700;
+                    margin-top: -12%;   
+                }
+                .chat{
+                    font-family: roboto-regular;
+                    font-size:20px;
+                    font-weight: 400;
+                    margin-top:2%;
+                }
+            }
+           
+        }
+    }
+}
+.body8{
+    background-color: #161E2C;
+    height: 52vh;
+    .soso{
+        .so{
+            margin-top: 5%;
+            position: absolute;
+            margin-left: 7%;
+            font-family: roboto-bold;
+            font-weight: 700;
+            font-size: 41px;
+            color: white;
+        }
+        .ss{
+            position: absolute;
+            margin-left: 7%;
+            font-family: roboto-regular;
+            font-weight: 400;
+            font-size: 24px;
+            color: white;
+            margin-top: 10%;
+        }
+        .post{
+            height: 45px;
+            width: 170px;
+            align-items: center;
+            justify-content: center;
+            background-color: #ff0099f8;
+            display: flex;
+            color: white;
+            font-family: roboto-regular;
+            font-weight: 700;
+            font-size: 20px;
+            margin-top: 14%;
+            margin-left: 7%;
+          
+            &:hover
+            {color: white;
+                background-color: #FA5F9B;
+            }
+            
+        }
+    }
+}
+.body9{
+.house{
+    .still{
+        font-family: roboto-bold;
+        font-weight: 700;
+        font-size: 41px;
+        margin-left: 7%;
+    }
+    .here{
+        font-family: roboto-regular;
+        font-weight: 400;
+        font-size: 24px;
+        margin-left: 7%;
+        width: 88%;
+    }
+    .housee{
+        justify-content: center;
+        align-items: center;
+        margin-right: 3%;
+        margin-left: 2.8%;
+        .laugh{
+            width:27%;
+           margin-right: 4%;
+           img{
+               height: 250px;
+            width: 100%;
+           } 
+           .design{
+            font-family: roboto-bold;
+            font-size: 24px;
+            font-weight: 700; 
+           }
+           .usd{
+            font-family: roboto-bold;
+            font-size: 24px;
+            font-weight: 700; 
+           }
+
+        }
+    }
+    .more{
+        width: 16%;
+        height: 8vh;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+       font-family: roboto-regular;
+       background-color: #f20091;
+       &:hover{
+           background-color: #FA5F9B;
+       }
+
+    }
+}
+}
+.body10{
+    background-color:#1F2836    ;
+    height: 60vh;
+    .soso{
+        .so{
+            margin-top: 5%;
+            position: absolute;
+            margin-left: 7%;
+            font-family: roboto-bold;
+            font-weight: 700;
+            font-size: 41px;
+            color: white;
+        }
+        .ss{
+            position: absolute;
+            margin-left: 7%;
+            font-family: roboto-regular;
+            font-weight: 400;
+            font-size: 24px;
+            color: white;
+            margin-top: 10%;
+        }
+        .sss{
+            position: absolute;
+            margin-left: 7%;
+            font-family: roboto-regular;
+            font-weight: 400;
+            font-size: 24px;
+            color: white;
+            margin-top: 10%;
+            a{
+                color: white;
+              
+                &:hover{
+                    color: #139FF0;
+                }
+            }
+            .s1{
+                margin-right: 50px;
+            }
+            .s2{
+                margin-left: 45px;
+         }  
+         .s3{
+             margin-left: 60px;
+         } 
+        }
+      
+     
+    }
+}
+.body11{
+    height: 70vh;
+    background-color: #161E2C;
+    .home{
+        width: 93%;
+        margin-left: 7%;
+        .first{
+           margin-top: 1%;
+            width: 14%;
+            margin-right: 2%;
+            img{
+                width: 130px;
+                height: 80px;
+            }
+            .us{
+                font-family: roboto-regular;
+                font-size: 14px;
+                font-weight: 400;
+            }
+            i{
+                margin-right: 8%;
+                margin-top: 1%;
+                font-size: 22px;
+            }
+        }
+        .second{
+            margin-top: 3.5%;
+            width: 15%;
+            margin-right: 1%;
+            .free{
+                font-family: roboto-bold;
+                font-size: 16px;
+                font-weight: 700;
+                margin-bottom:3%;
+            }
+            .cat{
+                font-family: roboto-regular;
+                font-size: 14px;
+                font-weight: 400;
+                margin-bottom:3%;
+                color: #b9b3b3;
+                &:hover{
+                    color: white;
+                }
+            }
+        }
+   
+        .sixth{
+            margin-top: 3.5%;
+            width: 15%;
+            margin-right: 1%;
+            .free{
+                font-family: roboto-bold;
+                font-size: 16px;
+                font-weight: 700;
+                margin-bottom: 5%;
+            }
+            img{
+                margin-bottom: 15%;
+            }
+                .social{
+                    i{
+                        color: white;
+                        font-size: 20px;
+                        margin-right: 15%;
+                        margin-top: 10%;
+                        &:hover{
+                            color: blue;
+                        }
+                    }
+                }
+        }
+    }
+   
+}
+// @media(max-width:1410px){
+//     .header2{
+//         margin-top: 7%;
+//     }
+//     .play{
+//         margin-top: -0.2%;
+//         .man{
+//             margin-top: -4.7%;
+//         }
+//     }
+// }
+// @media(max-width:1368px){
+//     .header{
+//         height: 7%;
+//     }
+//     .header2{
+//         margin-top: 5%;
+//     }
+//     .play{
+//         img{
+//             height: 72vh;
+//         }
+//         .playy{
+//             margin-top: -37%;
+//             width: 35%;
+//         }
+//     }
+// }
+@media(max-width:1280px){
+    .header{
+        height: 8%;
+    }
+   .play{
+       margin-top: -0.4%;
+       img{
+           height: 83vh;
+       }
+       .playy{
+           margin-top:-40% ;
+           margin-left: 4%;
+       }
+   }
+}
+@media(max-width:1180px){
+    .header{
+        height: 8% ;
+        .head1{
+            margin-left: 2% ;
+            div{
+                margin-top: 1%;
+                margin-left: -4%;
+            }
+        }
+        .head2{
+            margin-right: -2%;
+        }
+    }
+    .header2{
+       margin-top: 5%;
+       .head3{
+        margin-left: 2% ;
+       }
+    }
+    .play{
+        img{
+            height:65vh ;
+        }
+        .playy{
+            margin-left: 1%;
+            margin-top: -37%;
+            width: 40%;
+            .money{
+                .hire{
+           width: 38%;
+           height: 55px;
+           
+           .hiree{
+               align-items: center;
+               justify-content: center;
+               display: flex;
+               margin-top: 8px;   
+           }
+       }
+
+       
+   }
+        }
+        .man{
+            margin-top: -5%;
+            margin-left: 1%;
+            width: 98%;
+            .hire{
+                height: 60px;
+            }
+            .earn{
+                height: 60px;
+            }
+        }
+    }
+    .body4{
+        .chooseget{
+            width: 100%;
+            margin-left: 0%;
+            .choose{
+                margin-left: 1%;
+            }
+            .get{
+                margin-left: 1%; 
+            }
+            .house{
+                width: 100%;
+                .any{
+                     margin-left: 1%;
+                    width:30% ;
+                }
+            }
+        }
+    }
+    .body5{
+        .body51{
+            img{
+              height: 500px; 
+              width: 96%; 
+              margin-left: 4%;
+            }
+        }
+    }
+    .body6{
+        width: 100%!important;
+        .body61{
+            margin-left:1%;
+          .mobile{
+              .lifee{
+                  margin-left: 1%;
+              }
+          }
+        }
+        .body62{
+            img{
+                height: 500px; 
+                width: 96%; 
+              }
+        }
+    }
+    .body7{
+        .body71{
+            img{
+              height: 500px; 
+              width: 96%; 
+              margin-left: 4%;
+            }
+        } 
+    }
+    .body8{
+        height: 40vh;
+        .soso{
+            .so{
+                margin-left: 1%;
+            }
+            .ss{
+                margin-left: 1%;
+            }
+            .post{
+                margin-left: 1%;
+            }
+        }
+    }
+    .body9{
+        .house{
+            .still{
+                margin-left: 1%;
+            }
+            .here{
+                margin-left: 1%;
+            }
+            .housee{
+               .laugh{
+                   width: 30%;
+               } 
+            }
+        }
+    }
+    .body10{
+        height: 60vh;
+        .soso{
+            .so{
+                margin-left: 1%;
+            }
+            .ss{
+                margin-left: 1%;
+            }
+        }
+    }
+    .body11{
+        height:60vh;
+        .home{
+            margin-left: 1%;
+            .first{
+                width: 25%;
+            }
+        }
+    }
+}
+@media(max-width:1024px){
+    .header{
+        height: 9%;
+        .head1{
+            margin-left: 2% ;
+            div{
+                margin-top: 1%;
+                margin-left: -4%;
+            }
+        }
+        .head2{
+            margin-right: -2%;
+        }
+    }
+    .header2{
+        margin-top: 6%;
+        .head3{
+            margin-left: 2%;
+           
+        }
+    }
+    .play{
+        img{
+            height: 70vh;
+        }
+        .playy{
+            
+            margin-left: 1%;
+            margin-top: -44%;
+            width: 43%;
+            .money{
+                .hire{
+           width: 40%;
+           height: 55px;
+           
+           .hiree{
+               align-items: center;
+               justify-content: center;
+               display: flex;
+               margin-top: 8px;   
+           }
+       }
+
+       
+   }
+            
+        }
+        .man{
+            margin-top: -6.5%;
+            margin-left: 1%;
+            width: 98%;
+            .hire{
+                height: 66px;
+            }
+            .earn{
+                height: 66px;
+            }
+        }
+    }
+    .body4{
+        .chooseget{
+            width: 100%;
+            margin-left: 0%;
+            .choose{
+                margin-left: 1%;
+            }
+            .get{
+                margin-left: 1%; 
+            }
+            .house{
+                width: 100%;
+                .any{
+                     margin-left: 1%;
+                    width:30% ;
+                }
+            }
+        }
+    }
+    .body5{
+        .body51{
+            img{
+              height: 500px; 
+              width: 96%; 
+              margin-left: 4%;
+            }
+        }
+    }
+    .body6{
+        width: 100%!important;
+        .body61{
+            margin-left:1%;
+          .mobile{
+              .lifee{
+                  margin-left: 1%;
+              }
+          }
+        }
+        .body62{
+            img{
+                height: 500px; 
+                width: 96%; 
+              }
+        }
+    }
+    .body7{
+        .body71{
+            img{
+              height: 500px; 
+              width: 96%; 
+              margin-left: 4%;
+            }
+        } 
+    }
+    .body8{
+        .soso{
+            .so{
+                margin-left: 1%;
+            }
+            .ss{
+                margin-left: 1%;
+            }
+            .post{
+                margin-left: 1%;
+            }
+        }
+    }
+    .body9{
+        .house{
+            .still{
+                margin-left: 1%;
+            }
+            .here{
+                margin-left: 1%;
+            }
+            .housee{
+.laugh{
+    width: 30%;
+}
+            }
+            .more{
+                width: 23%;
+            }
+        }
+    }
+    .body10{
+        .soso{
+            .so{
+                margin-left: 1%;
+            }
+            .ss{
+                margin-left: 1%;
+            }
+
+        }
+    }
+    .body11{
+        .home{
+            width: 99%;
+            margin-left: 1%;
+           .first{
+               width: 15%;
+           }
+        }
+    }
+}
+@media(max-width:998px){
+    .header2{
+        margin-top: 7%;
+    }
+}
+@media(max-width:915px){
+    .header{
+        height: 16%;
+        .head1{
+            div{
+                margin-top: 2px;
+            }
+        }
+    }
+    .header2{
+     margin-top: 7%;  
+  
+    }
+    .play{
+        margin-top: -2px;
+        img{
+            height: 140vh;
+        }
+        .playy{
+            width: 38%;
+            margin-top: -58%;
+            .money{
+                .hire{
+                   width: 48%;
+           height: 48px;
+          }
+    }
+          
+      }
+      .man{
+       .hire{
+           height: 59px;
+       }   
+       .earn{
+           height: 59px;
+       }   
+      }
+
+    }
+    .body4{
+        .chooseget{
+         .choose{
+         font-size: 32px;  
+         }
+         .get{
+             font-size: 20px;
+          }
+          .house{
+              .any{
+                 img{
+                     width: 60px;
+                     height: 90px;
+                 }
+                 .size{
+                     font-size: 18px; 
+                 }
+                 .anyjob{
+                     font-size: 16px; 
+                 }  
+              }
+          }
+        }
+     }
+    .body5{
+        .body51{
+            width: 45%;
+            img{
+                height: 80%;
+                width: 100%;
+            }
+        }
+        .body52{
+            width: 55%;
+            margin-left: 5%;
+            .howdoes{
+                width: 98%;
+                .how{
+                    font-size:32px ;
+                   }
+                .house2{
+                    width: 98%;
+                    .post{
+                        font-size: 20px;
+                    }
+                    .simply{
+                        font-size: 16px;
+                    }
+                }
+                .postaproject{
+                    
+                height: 46px;
+               width: 38%;   
+                }
+            }
+        }
+    }
+    .body6{
+        .body61{
+            width: 60%;
+            .control{
+               .becontrol{
+                font-size:32px ;
+               }
+               .usecontrol{
+                width: 98%;
+               }
+            }
+            .mobile{
+                width: 100%;
+                .life{
+                    .lifechat{
+                        img{
+                            width: 60px;
+                            height: 90px;
+                        }
+                    }
+                    .chat{
+                        font-size:16px;
+                    }
+                }
+                .lifee{
+                    .lifechat{
+                        img{
+                            width: 60px;
+                            height: 90px;
+                        }
+                    }
+                  .chat{
+                        font-size:16px;
+                    }
+                }
+               
+            }
+        }
+        .body62{
+            width: 40%;
+            img{
+                height: 80%;
+                width: 100%;
+            }
+        }
+    }
+    .body7{
+        .body71{
+            width: 40%;
+            img{
+                height: 80%;
+                width: 100%;
+            }
+        }
+        .body72{
+            width: 60%;
+            margin-left: 5%;
+            .control{
+               .becontrol{
+                font-size:32px ;
+               }
+               .usecontrol{
+                width: 98%;
+               }
+            }
+            .mobile{
+                width: 100%;
+                .life{
+                    .lifechat{
+                        img{
+                            width: 60px;
+                            height: 90px;
+                        }
+                    }
+                    .chat{
+                        font-size:16px;
+                    }
+                }
+                .lifee{
+                    .lifechat{
+                        img{
+                            width: 60px;
+                            height: 90px;
+                        }
+                    }
+                  .chat{
+                        font-size:16px;
+                    }
+                }
+               
+            }
+        }
+    }
+    .body8{
+        height: 70vh;
+    }
+    .body9{
+        .house{
+            .housee{
+                .laugh{
+                    width: 30%;
+                }
+        }
+    }
+    
+}
+.body10{
+    height: 70vh;
+}
+.body11{
+    height: fit-content ;
+}
+}
+@media(max-width:914px){
+    .header{
+        height: 16% ;
+        .head1{
+            div{
+                margin-top: 2px;
+            }
+        }
+    }
+    .header2{
+     margin-top: 7%;  
+  
+    }
+    .play{
+        margin-top: -2px;
+        img{
+            height: 150vh ;
+        }
+        .playy{
+            width: 38%;
+            margin-top: -58%;
+            .money{
+                .hire{
+                   width: 48%;
+           height: 48px;
+          }
+    }
+          
+      }
+      .man{
+          margin-top: -7%;
+       .hire{
+           height: 64px;
+       }   
+       .earn{
+           height: 64px;
+       }   
+      }
+
+    }
+    .body4{
+        .chooseget{
+         .choose{
+         font-size: 32px;  
+         }
+         .get{
+             font-size: 20px;
+          }
+          .house{
+              .any{
+                 img{
+                     width: 60px;
+                     height: 90px;
+                 }
+                 .size{
+                     font-size: 18px; 
+                 }
+                 .anyjob{
+                     font-size: 16px; 
+                 }  
+              }
+          }
+        }
+     }
+    .body5{
+        .body51{
+            width: 45%;
+            img{
+                height: 80%;
+                width: 100%;
+            }
+        }
+        .body52{
+            width: 55%;
+            margin-left: 5%;
+            .howdoes{
+                width: 98%;
+                .how{
+                    font-size:32px ;
+                   }
+                .house2{
+                    width: 98%;
+                    .post{
+                        font-size: 20px;
+                    }
+                    .simply{
+                        font-size: 16px;
+                    }
+                }
+                .postaproject{
+                    
+                height: 46px;
+               width: 38%;   
+                }
+            }
+        }
+    }
+    .body6{
+        .body61{
+            width: 60%;
+            .control{
+               .becontrol{
+                font-size:32px ;
+               }
+               .usecontrol{
+                width: 98%;
+               }
+            }
+            .mobile{
+                width: 100%;
+                .life{
+                    .lifechat{
+                        img{
+                            width: 60px;
+                            height: 90px;
+                        }
+                    }
+                    .chat{
+                        font-size:16px;
+                    }
+                }
+                .lifee{
+                    .lifechat{
+                        img{
+                            width: 60px;
+                            height: 90px;
+                        }
+                    }
+                  .chat{
+                        font-size:16px;
+                    }
+                }
+               
+            }
+        }
+        .body62{
+            width: 40%;
+            img{
+                height: 80%;
+                width: 100%;
+            }
+        }
+    }
+    .body7{
+        .body71{
+            width: 40%;
+            img{
+                height: 80%;
+                width: 100%;
+            }
+        }
+        .body72{
+            width: 60%;
+            margin-left: 5%;
+            .control{
+               .becontrol{
+                font-size:32px ;
+               }
+               .usecontrol{
+                width: 98%;
+               }
+            }
+            .mobile{
+                width: 100%;
+                .life{
+                    .lifechat{
+                        img{
+                            width: 60px;
+                            height: 90px;
+                        }
+                    }
+                    .chat{
+                        font-size:16px;
+                    }
+                }
+                .lifee{
+                    .lifechat{
+                        img{
+                            width: 60px;
+                            height: 90px;
+                        }
+                    }
+                  .chat{
+                        font-size:16px;
+                    }
+                }
+               
+            }
+        }
+    }
+    .body8{
+        height: 75vh;
+        .soso{
+            .so{
+                margin-top: 8%;
+                font-size: 32px;
+            }
+            .ss{
+                margin-top: 13%;
+                font-size: 20px;
+            }
+            .post{
+                margin-top: 17%;
+            }
+        }
+    }
+    .body9{
+        .house{
+            .still{
+                font-size: 32px;
+            }
+            .here{
+                font-size: 20px;
+            }
+            .housee{
+                .laugh{
+                    width:30%;
+                   margin-right: 3%;
+                .design{
+                    font-size: 14px;
+                }
+                .usd{
+                    font-size: 14px;
+                }
+            }
+            }
+            .more{
+                height: 11vh;
+            }
+        }
+    }
+    .body10{
+        height: 75vh;
+        .soso{
+            .so{
+                font-size: 32px;
+            }
+            .ss{
+                font-size: 18px;
+            }
+        }
+    }
+    .body11{
+        height: 100vh;
+    }
+    
+}
+@media(max-width:912px){
+    .header{
+        height: 6%;
+    }
+    .header2{
+     margin-top: 8%;  
+  
+    }
+    .play{
+        margin-top: -2px;
+        img{
+            height: 42vh;
+        }
+        .playy{
+            width: 38%;
+            margin-top: -55%;
+            .money{
+                .hire{
+                   width: 48%;
+           height: 50px;
+          }
+    }
+          
+      }
+      .man{
+       .hire{
+           height: 65px;
+       }   
+       .earn{
+           height: 65px;
+       }   
+      }
+
+    }
+    .body5{
+        .body51{
+            width: 45%;
+            img{
+                height: 80%;
+                width: 100%;
+            }
+        }
+        .body52{
+            width: 55%;
+            margin-left: 5%;
+            .howdoes{
+                width: 98%;
+                .how{
+                    font-size:32px ;
+                   }
+                .house2{
+                    width: 98%;
+                }
+                .postaproject{
+                    
+                height: 48px;
+               width: 40%;   
+                }
+            }
+        }
+    }
+    .body6{
+        .body61{
+            width: 60%;
+            .control{
+               .becontrol{
+                font-size:32px ;
+               }
+               .usecontrol{
+                width: 98%;
+               }
+            }
+            .mobile{
+                width: 100%;
+                .life{
+                    .lifechat{
+                        img{
+                            width: 60px;
+                            height: 90px;
+                        }
+                    }
+                    .chat{
+                        font-size:16px;
+                    }
+                }
+                .lifee{
+                    .lifechat{
+                        img{
+                            width: 60px;
+                            height: 90px;
+                        }
+                    }
+                  .chat{
+                        font-size:16px;
+                    }
+                }
+               
+            }
+        }
+        .body62{
+            width: 40%;
+            img{
+                height: 80%;
+                width: 100%;
+            }
+        }
+    }
+    .body7{
+        .body71{
+            width: 40%;
+            img{
+                height: 80%;
+                width: 100%;
+            }
+        }
+        .body72{
+            width: 60%;
+            margin-left: 5%;
+            .control{
+               .becontrol{
+                font-size:32px ;
+               }
+               .usecontrol{
+                width: 98%;
+               }
+            }
+            .mobile{
+                width: 100%;
+                .life{
+                    .lifechat{
+                        img{
+                            width: 60px;
+                            height: 90px;
+                        }
+                    }
+                    .chat{
+                        font-size:16px;
+                    }
+                }
+                .lifee{
+                    .lifechat{
+                        img{
+                            width: 60px;
+                            height: 90px;
+                        }
+                    }
+                  .chat{
+                        font-size:16px;
+                    }
+                }
+               
+            }
+        }
+    }
+    .body8{
+        height: 25vh;
+        .soso{
+            .so{
+                margin-top: 8%;
+                font-size: 32px;
+            }
+            .ss{
+                margin-top: 13%;
+                font-size: 20px;
+            }
+            .post{
+                margin-top: 17%;
+            }
+        }
+    }
+    .body9{
+        .house{
+            .still{
+                font-size: 32px;
+            }
+            .here{
+                font-size: 20px;
+            }
+            .housee{
+                .laugh{
+                    width:32%;
+                   margin-right: 3%;
+                   img{
+                    height: 220px;
+                   }
+                .design{
+                    font-size: 14px;
+                }
+                .usd{
+                    font-size: 14px;
+                }
+            }
+            }
+            .more{
+                height: 4vh;
+                width: 27%;
+            }
+        }
+    }
+    .body10{
+        height: 30vh;
+        .soso{
+            .so{
+                font-size: 32px;
+            }
+            .ss{
+                font-size: 18px;
+            }
+        }
+    }
+    .body11{
+        height: 35vh;
+    }
+
+    
+}
+@media(max-width:910px){
+.header{
+    height: 8%;
+}   
+.play{
+    img{
+        height: 65vh;
+    }
+} 
+}   
+@media(max-width:896px){
+    .header{
+        height: 17%;
+    }
+    .header2{
+        margin-top: 7.4%;
+    }
+    .play{
+        img{
+            height: 145vh;
+        }
+        .playy{
+            margin-top: -58%;
+        }
+        .man{
+            margin-top: -7.2%;
+        }
+    }
+    .body9{
+        .house{
+            .more{
+height: 12vh;
+            }
+        }
+    }
+    .body10{
+        height: 80vh;
+    }
+    .body11{
+        height: fit-content;
+    }
+}
+@media(max-width:851px){
+    .play{
+        .playy{
+            margin-top: -58%;
+        }
+        .man{
+            margin-top: -7.6%;
+        }
+    }
+}
+@media(max-width:844px){
+    .header{
+        height: 17%;
+    }
+    .header2{
+        margin-top: 7.5%;
+    }
+    .play{
+        img{
+            height: 145vh;
+        }
+        .playy{
+            margin-top: -57%;
+        }
+        .man{
+            margin-top: -7.7%;
+        }
+    }
+}
+@media(max-width:822px){
+    .play{
+        .man{
+            margin-top: -8%;
+        }
+    }
+}
+@media(max-width:820px){
+    .header{
+        height: 5% ;
+        .head1{
+            margin-left: 2% ;
+           
+            div{
+                margin-top: 0.5%;
+                margin-left: -4%;
+            }
+        }
+        .head2{
+            margin-right: -2%;
+        }
+    }
+    .header2{
+       margin-top: 7%;
+       .head3{
+        margin-left: 2%;
+       }
+    }
+    .play{
+        margin-top: -1%;
+        img{
+            height:50vh ;
+        }
+        .playy{
+            margin-left: 1%;
+            margin-top: -60%;
+            width: 40%;
+            .money{
+                .hire{
+           width: 55%;
+           height: 52px;
+           
+           .hiree{
+               align-items: center;
+               justify-content: center;
+               display: flex;
+               margin-top: 8px;   
+           }
+       }   
+   }
+        }
+        .man{
+            margin-top: -8.2%;
+            margin-left: 1%;
+            width: 98%;
+            .hire{
+                height: 67px;
+            }
+            .earn{
+                height: 67px;
+            }
+        }
+    }
+    .body4{
+       .chooseget{
+        .choose{
+        font-size: 32px;  
+        }
+        .get{
+            font-size: 20px;
+         }
+         .house{
+             .any{
+                img{
+                    width: 60px;
+                    height: 90px;
+                }
+                .size{
+                    font-size: 18px; 
+                }
+                .anyjob{
+                    font-size: 16px; 
+                }  
+             }
+         }
+       }
+    }
+    .body5{
+        .body51{
+            width: 43%;
+            img{
+                height: 68%;
+            }
+        }
+        .body52{
+            width: 57%;
+            margin-left: 5%;
+            .howdoes{
+                width: 98%;
+                .how{
+                    font-size:32px ;
+                   }
+                .house2{
+                    width: 98%;
+                }
+                .postaproject{
+                    
+                height: 48px;
+               width: 40%;   
+                }
+            }
+        }
+    }
+    .body6{
+        .body61{
+            width: 60%;
+            .control{
+               .becontrol{
+                font-size:32px ;
+               }
+               .usecontrol{
+                width: 98%;
+               }
+            }
+            .mobile{
+                width: 100%;
+                .life{
+                    .lifechat{
+                        img{
+                            width: 60px;
+                            height: 90px;
+                        }
+                    }
+                    .chat{
+                        font-size:16px;
+                    }
+                }
+                .lifee{
+                    .lifechat{
+                        img{
+                            width: 60px;
+                            height: 90px;
+                        }
+                    }
+                  .chat{
+                        font-size:16px;
+                    }
+                }
+               
+            }
+        }
+        .body62{
+            width: 40%;
+            img{
+                height: 75%;
+            }
+        }
+    }
+    .body7{
+        .body71{
+            width: 40%;
+            img{
+                height: 75%;
+            }
+        }
+        .body72{
+            width: 60%;
+            margin-left: 5%;
+            .control{
+               .becontrol{
+                font-size:32px ;
+               }
+               .usecontrol{
+                width: 98%;
+               }
+            }
+            .mobile{
+                width: 100%;
+                .life{
+                    .lifechat{
+                        img{
+                            width: 60px;
+                            height: 90px;
+                        }
+                    }
+                    .chat{
+                        font-size:16px;
+                    }
+                }
+                .lifee{
+                    .lifechat{
+                        img{
+                            width: 60px;
+                            height: 90px;
+                        }
+                    }
+                  .chat{
+                        font-size:16px;
+                    }
+                }
+               
+            }
+        }
+    }
+    .body9{
+        .house{
+            .more{
+                height: 6vh;
+            }
+        }
+    }
+    .body10{
+        height: 30vh;
+    }
+}
+@media(max-width:811px){
+    .play{
+        .man{
+            margin-top: -8.2%;
+        }
+    }
+}
+@media(max-width:775px){
+    .header{
+        .head1{
+            margin-left: 1%;
+        }
+    }
+}
+@media (max-width:768px){
+    .header{
+        height: 7% ;
+        .head1{
+            margin-left: 1%;
+            div{
+                margin-top: 2px;
+            }
+        }
+    }
+    .header2{
+        margin-top: 8%;
+     
+    }
+    .play{
+        img{
+            height:67vh ;
+        }
+        .playy{
+            margin-top: -70%;
+            width: 38%;
+        }
+        .man{
+            margin-top: -9%;
+            margin-left: 1%;
+            width: 98%;
+            .hire{
+                height: 69px;
+            }
+            .earn{
+                height: 69px;
+            }
+        }
+    }
+}
+@media(max-width:767px){
+    .header{
+        .hide{
+            display: none !important;
+        }
+    }
+    .header2{
+       .head3{
+        button{
+            margin-right: 10px;
+        }
+       }
+    }
+    .play{
+        img{
+            height: 90vh;
+        }
+        .playy{
+            width: 95%;
+            margin-top: -33%;
+            .okayy{
+                display: none;
+            }
+            .okay{
+                display: inherit;
+                font-size: 32px;
+            }
+            h5{
+                font-size: 20px;
+            }
+            .money{
+                width: 45%;
+            }
+        }
+        .man{
+            display: none;
+        }
+        .mann{
+            display: inherit;
+            .whyspring{
+                margin-top: 18%; 
+            }
+        }
+    }
+    .body4{
+        .chooseget{
+            .choose{
+                font-size: 32px;
+            }
+            .get{
+                font-size: 16px;
+            }
+            .house{
+                display: block !important;
+                .any{
+                    width: 94%;
+                    .size{
+                        font-size: 18px;
+                    }
+                    .anyjob{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    .body5{
+        display: block !important;
+        .body51{
+            width: 100%;
+            img{
+                width: 94%;
+                margin-left: 3%;
+            }
+        }
+        .body52{
+            width: 98%;
+            margin-left: 2%;
+       .howdoes{
+         .postaproject{
+             width: 17%;
+             font-size: 14px;
+             height: 35px;
+         }
+       }
+        }
+    }
+    .body6{
+        display: block !important;
+        .body6{
+            display: inherit;
+            width: 100%;
+            img{
+             width: 94%;
+             margin-left: 3%;
+         }
+        }
+        .body61{
+            width: 98%;
+            margin-left: 2%;
+            .mobile{
+                display: block !important;
+                width: 98%;
+                .life{
+                 width: 98%; 
+                }
+                .lifee{
+                 width: 98%; 
+                 .live{
+                     margin-top: -3%;
+                 }
+                }
+            }
+        }
+        .body62{
+            display: none;
+        }
+    }
+    .body7{
+     display: block !important; 
+     .body71{
+         width: 100%;
+         img{
+          width: 94%;
+          margin-left: 3%;
+      }
+     }
+     .body72{
+         width: 98%;
+         margin-left: 2%;
+         .control{
+             font-size: 32px;
+             .usecontrol{
+                 font-size: 18px;
+             }
+         }
+         .mobile{
+             display: block !important;
+             width: 98%;
+             .life{
+              width: 98%; 
+             }
+             .lifee{
+              width: 98%; 
+              margin-left: 1%;
+              .live{
+                  margin-top: -3%;
+              }
+             }
+         }
+     }
+    }
+    .body8{
+      height: 35vh;  
+      .soso{
+          .so{
+              font-size: 32px;
+              margin-left: 0%;
+          }
+          .ss{
+              font-size: 16px;
+              margin-left: 0%;
+          }
+          .post{
+              font-size: 14px;
+              margin-left: 0%;
+              width: 15%;
+          }
+      }
+    }
+    .body9{
+        .house{
+            .still{
+                font-size: 32px;
+            }
+            .here{
+                font-size: 16px;
+            }
+            .housee{
+                display: block !important;
+                .laugh{
+                    width: 50%;
+                    margin-bottom: 5%;
+                }
+            }
+            .more{
+                height: 5vh;
+                width: 23%;
+                font-size: 14px;
+            }
+        }
+    }
+  .body10{
+      height: 42vh;
+      .soso{
+          .so{
+              font-size: 32px;
+          }
+          .ss{
+              font-size: 16px;    
+          }
+          .sss{
+            display: block !important; 
+            
+            a{
+                display: block !important;
+                margin-bottom: 1%;
+                .s2{
+                    margin-left: 0%;
+                }
+                .s3{
+                    margin-left: 0%;
+                }
+            }
+          }
+         
+      }
+  }
+  .body11{
+      height: fit-content;
+      .home{
+          display: block !important;
+          .first{
+              margin-left: 2%;
+          }
+          .second{
+              margin-left: 2%;
+          }
+          .sixth{
+              margin-left: 2%;
+              .imag{
+                  display: flex;
+                  .imag2{
+                      margin-left: 70%;
+                  }
+              }
+           .social{
+               .fa-youtube-play, .fa-twitter, .fa-instagram{
+                   margin-left: 70%;
+               }
+           }
+          }
+      }
+  }
+   
+}
+@media(max-width:740px){
+    .header{
+        height: 17.5%;
+        .hide{
+            display: none !important;
+        }
+    }
+    .header2{
+        margin-top: 8.5%;
+        width: 100%;
+        .head3{
+            width: 100%;
+        } 
+       }
+       .play{
+           margin-top: -2px;
+           img{
+               height: 105vh;
+               width: 100%;
+           }
+           .playy{
+               margin-left: 2%;
+               width: 92%;
+               margin-top: -35%;
+               .okayy{
+                   display: none;
+               }
+               .okay{
+                   display: inherit;
+                   font-family: roboto-bold;
+                   font-weight: 700;
+                   font-size: 32px;
+               }
+               h5{
+                font-family: roboto-regular;
+                font-weight: 400;
+                font-size: 20px;
+               }
+               .money{
+                   .hire{
+                      width: 55%;
+              height: 50px;
+             }
+       }
+             
+         }
+         .man{
+             display: none;  
+         }
+         .mann{
+             display: inherit;
+         }
+   
+       }
+   .body4{
+       .chooseget{
+           .choose{
+               font-size: 32px;
+           }
+           .get{
+               font-size: 16px;
+           }
+           .house{
+               display: block !important;
+               .any{
+                   width: 95%;
+                   .size{
+                       font-size: 18px;
+                   }
+                   .anyjob{
+                       font-size: 16px;
+                   }
+               }
+           }
+       }
+   }
+       .body5{
+           display: block !important;
+           .body51{
+               width: 100%;
+               img{
+                   width: 94%;
+                   margin-left: 3%;
+               }
+           }
+           .body52{
+               width: 98%;
+               margin-left: 2%;
+          .howdoes{
+            .postaproject{
+                width: 17%;
+                font-size: 14px;
+                height: 35px;
+            }
+          }
+           }
+       }
+       .body6{
+           display: block !important;
+           .body60{
+               display: inherit;
+               width: 100%;
+               img{
+                width: 94%;
+                margin-left: 3%;
+            }
+           }
+           .body61{
+               width: 98%;
+               margin-left: 2%;
+               .mobile{
+                   display: block !important;
+                   width: 98%;
+                   .life{
+                    width: 98%; 
+                   }
+                   .lifee{
+                    width: 98%; 
+                    .live{
+                        margin-top: -3%;
+                    }
+                   }
+               }
+           }
+           .body62{
+               display: none;
+           }
+       }
+       .body7{
+        display: block !important; 
+        .body71{
+            width: 100%;
+            img{
+             width: 94%;
+             margin-left: 3%;
+         }
+        }
+        .body72{
+            width: 98%;
+            margin-left: 2%;
+            .control{
+                font-size: 32px;
+                .usecontrol{
+                    font-size: 18px;
+                }
+            }
+            .mobile{
+                display: block !important;
+                width: 98%;
+                .life{
+                 width: 98%; 
+                }
+                .lifee{
+                 width: 98%; 
+                 margin-left: 1%;
+                 .live{
+                     margin-top: -3%;
+                 }
+                }
+            }
+        }
+       }
+       .body8{
+           height: 80vh;
+       }
+       .body9{
+           .house{
+               .more{
+                   height: 10vh;
+               }
+           }
+       }
+       .body10{
+           height: 100vh;
+       }
+       .body11{
+           margin-top: -1.5%;
+       }
+}
+@media(max-width:720px){
+    .header{
+        height: 12%;
+    }
+    .play{
+        .img{
+            height: 105vh ;
+        }
+    }
+    .body8{
+        height: 50vh;
+    }
+   .body9{
+ .house{
+    .housee{
+        .laugh{
+        width: 53% ;
+        }
+    }
+ }
+   }
+   .body10{
+       height: 70vh;
+   }
+}
+@media(max-width:667px){
+    .header{
+        height: 17%;
+    }
+    .header2{
+        margin-top: 9.5%;
+    }
+    .play{
+        img{
+            height: 150vh;
+        }
+    }
+    .body8{
+        height: 70vh;
+    }
+    .body9{
+        .house{
+            .housee{
+                .laugh{
+                    width: 58%;
+                }
+            }
+        }
+    }
+    .body10{
+        height: 80vh;
+    }
+}
+@media(max-width:653px){
+    .header{
+        height: 22% ;
+    }
+    .play{
+        img{
+            height: 200vh ;
+        }
+        .playy{
+            margin-top: -42%;
+            width: 95%;
+            .money{
+                width: 60%;
+            }
+        }
+        .mann{
+            .whyspring{
+                margin-top: 23%;
+            }
+        }
+    }
+    .body8{
+        height: 90vh;
+    }
+    .body9{
+        .house{
+            .more{
+                height: 12vh;
+            }
+        }
+    }
+    .body10{
+        height: 120vh;
+    }
+}
+@media(max-width:540px){
+    .header{
+        height: 11%;
+    }
+    .header2{
+        margin-top: 14.5%;
+    }
+    .play{
+        img{
+            height: 90vh;
+        }
+        .playy{
+            margin-top: -52%;
+            width: 95%;
+            .money{
+                width: 60%;
+            }
+        }
+    
+    }
+    .body8{
+        height: 40vh;
+     .soso{
+         .ss{
+margin-top: 18%;
+         }
+        .post{
+            width: 25%;
+            margin-top: 24%;
+        }
+     }
+    }
+    .body9{
+        .house{
+            .here{
+                width: 95%;
+            }
+            .housee{
+                .laugh{
+                    width: 70%;
+                    img{
+                        height: 250px;
+                    }
+                }
+                }
+         
+        }
+    }
+    .body10{
+        height: 45vh;
+    }
+}
+@media(max-width:414px){
+.header{
+    height: 6%;
+}
+.header2{
+    margin-top: 12%;
+}
+.play{
+    img{
+        height: 90vh;
+    }
+    .playy{
+        margin-top: -62%;
+        .money{
+            .hire{
+                width: 75%;
+            }
+        }
+        .mann{
+            .whyspring{
+                margin-top: 30%;
+            }
+        }
+    }
+}
+.body5{
+    .body52{
+        .howdoes{
+            .postaproject{
+                width: 32%;
+            }
+        }
+    }
+}
+.body8{
+    height: 30vh;
+    .soso{
+        .ss{
+margin-top: 20%;
+        }
+       .post{
+           width: 28%;
+           margin-top: 30%;
+       }
+    }
+}
+.body9{
+    .house{
+        .still{
+            margin-left: 3%;
+        }
+        .here{
+            margin-left: 3%;
+        }
+        .housee{
+           .laugh{
+               width: 95%;
+               img{
+                margin-left: 2%; 
+               }
+               .design{
+                margin-left: 2%;
+               }
+               .usd{
+                margin-left: 2%;
+               }
+           }     
+        }
+        .more{
+            width: 40%;
+            height: 6vh;
+        }
+    }
+}
+.body10{
+    height: 40vh;
+    .soso{
+        margin-left: 4%;
+        .ss{
+            margin-top: 15%;
+        }
+    }
+}
+.body11{
+    .home{
+        margin-left: 4%;
+     
+        .first{
+            width: 80%;
+            .free{
+                font-size: 18px;
+            }
+        }
+        .second{
+            .free{
+                font-size: 18px;
+            }
+            .cat{
+                font-size: 16px;
+            }
+        }
+        .sixth{
+            .free{
+                font-size: 18px;
+            }
+        }
+    }
+}
+}
+@media(max-width:412px){
+    .header{
+        height: 7% ;
+    }
+    .header2{
+        margin-top: 16%;
+        width: 100% !important;
+    }
+}
+@media(max-width:393px){
+    .play{
+        .playy{
+            margin-top: -65%;
+        }
+    }
+    .body8{
+        height: 45vh;
+     .soso{
+         .so{
+             margin-top: 10%;
+         }
+         .ss{
+             margin-top: 35%;
+         }
+         .post{
+             margin-top: 50%;
+         }
+     }
+    }
+}
+@media(max-width:390px){
+    .play{
+        .playy{
+            margin-top: -75%;
+        }
+    }
+}
+@media(max-width:375px){
+.header{
+    height: 9%;
+}
+.header2{
+    .head3{
+        width: 100%;
+        overflow-x: scroll !important;
+       button{
+    margin-right: 0%;
+    margin-left: 0%;
+         } 
+    }
+}
+.play{
+    .playy{
+        margin-top: -80%;
+    }
+}
+}
+@media(max-width:360px){
+ .header2{
+     margin-top: 19%;
+     .head3{
+        overflow-x: scroll;
+        width: 90%;
+     }
+ } 
+ .play{
+     .playy{
+         margin-top: -85%;
+     }
+ }  
+}
+@media(max-width:280px){
+.header2{
+    margin-top: 23.5%;
+}
+.play{
+    img{
+        height: 100vh;
+    }
+    .playy{
+        margin-top: -145%;
+        margin-left: 4%;
+      .money{
+        .hire{
+            width: 95%;
+        }
+      }
+        .okay{
+            font-size: 32px;
+        }
+    }
+}
+.body5{
+ .body52{
+     .howdoes{
+         .postaproject{
+width: 55%;
+         }
+     }
+ }
+}
+.body8{
+    height: 55vh;
+    .soso{
+        .so{
+            margin-top: 20%;
+        }
+        .ss{
+            margin-top: 55%;
+        }
+        .post{
+            margin-top: 75%;
+            width: 50%;
+        }
+    }
+}
+.body10{
+    height: 50vh;
+}
+}
+
+

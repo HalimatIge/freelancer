@@ -1,0 +1,2585 @@
+@font-face {
+  font-family: roboto-regular;
+  src: url(./Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: roboto-bold;
+  src: url(./Roboto/Roboto-Bold.ttf);
+}
+html, body {
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
+.header {
+  box-shadow: 0px 0px 1px black;
+  height: 11%;
+  width: 100% !important;
+  z-index: 2;
+  position: fixed;
+  background-color: white;
+  top: 0px;
+}
+.header a {
+  text-decoration: none;
+  color: black;
+}
+.header a:hover {
+  color: skyblue;
+}
+.header div {
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 16px;
+}
+.header .head1 {
+  margin-left: 7%;
+}
+.header .head1 img {
+  margin-top: -2%;
+}
+.header .head1 img, .header .head1 div {
+  margin-right: 40px;
+}
+.header .head1 img:hover, .header .head1 div:hover {
+  color: skyblue;
+}
+.header .head2 {
+  margin-right: 4%;
+}
+.header .head2 div {
+  margin-right: 40px;
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 2%;
+}
+.header .head2 div:hover {
+  color: skyblue;
+}
+.header .head2 .post {
+  height: 35px;
+  width: 110px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 0, 153, 0.9725490196);
+  display: flex;
+  color: white;
+  font-family: roboto-regular;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 0%;
+}
+.header .head2 .post:hover {
+  color: white;
+  background-color: #FA5F9B;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+button:focus .whyspring {
+  display: inherit;
+}
+
+.header2 {
+  height: 50px;
+  background-color: #0E1724;
+  width: 100% !important;
+  margin-top: 5%;
+}
+.header2 div {
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 14px;
+}
+.header2 .head3 {
+  width: 100%;
+  margin-left: 7%;
+}
+.header2 .head3 button {
+  background-color: transparent;
+  border: none;
+  margin-right: 30px;
+}
+.header2 .head3 button:hover {
+  background-color: #323A45;
+  height: 100%;
+}
+.header2 .head3 button:focus .whyspring {
+  display: inherit;
+}
+.header2 .head3 .whyspring {
+  width: 180px;
+  height: fit-content;
+  position: absolute;
+  background-color: #FFFFFF;
+  top: 130px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  z-index: 30000;
+  display: none;
+}
+.header2 .head3 .whyspring div {
+  margin-left: 10px;
+}
+
+.play {
+  position: relative;
+}
+.play img {
+  height: 110vh;
+}
+.play .playy {
+  width: 37%;
+  height: min-content;
+  position: absolute;
+  z-index: 1;
+  margin-top: -42%;
+  margin-left: 7%;
+}
+.play .playy h1 {
+  font-family: roboto-bold;
+  font-weight: 700;
+  font-size: 41px;
+}
+.play .playy .okay {
+  display: none;
+}
+.play .playy h5 {
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 20px;
+}
+.play .playy .money {
+  display: flex;
+}
+.play .playy .money .hire {
+  width: 35%;
+  height: 50px;
+  background-color: #f20091;
+}
+.play .playy .money .hire:hover {
+  background-color: #FA5F9B;
+}
+.play .playy .money .hire p {
+  font-family: roboto-regular;
+  font-weight: 700;
+  font-size: 20px;
+}
+.play .playy .money .hire p a {
+  text-decoration: none;
+  color: white;
+}
+.play .playy .money .hire .hiree {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 8px;
+}
+.play .man {
+  position: absolute;
+  display: flex;
+  margin-top: -5%;
+  margin-left: 15%;
+  width: 70%;
+}
+.play .man .hire {
+  width: 80%;
+  height: 67px;
+  background-color: white;
+}
+.play .man .hire:hover {
+  background-color: white;
+}
+.play .man .hire p {
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 18px;
+}
+.play .man .hire p a {
+  text-decoration: none;
+  color: black;
+  margin-top: 2%;
+}
+.play .man .hire .hiree {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 8px;
+}
+.play .man .earn {
+  width: 80%;
+  height: 67px;
+  background-color: #139FF0;
+}
+.play .man .earn:hover {
+  background-color: #3593c9;
+}
+.play .man .earn p {
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 18px;
+}
+.play .man .earn p a {
+  text-decoration: none;
+  color: white;
+  margin-top: 2%;
+}
+.play .man .earn .hiree {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 8px;
+}
+.play .mann {
+  height: 70px;
+  box-shadow: 0px 0px 1px black;
+  background-color: white;
+  display: none;
+}
+.play .mann button {
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 18px;
+}
+.play .mann button div {
+  margin-top: 2.5%;
+  margin-left: 3%;
+}
+.play .mann button i {
+  right: 3%;
+  position: absolute;
+  margin-top: 2.5%;
+}
+.play .mann button:focus .whyspring {
+  display: inherit;
+}
+.play .mann .whyspring {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  margin-top: 13%;
+  right: 0%;
+  display: none;
+  margin-bottom: 5%;
+  border-bottom: black;
+}
+.play .mann .whyspring div {
+  margin-left: 3%;
+  margin-top: 2.5%;
+}
+
+.body4 {
+  width: 100%;
+  margin-top: 6%;
+}
+.body4 .chooseget {
+  width: 92%;
+  margin-left: 6%;
+}
+.body4 .chooseget .choose {
+  font-family: roboto-bold;
+  font-weight: 700;
+  font-size: 41px;
+}
+.body4 .chooseget .get {
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 24px;
+}
+.body4 .chooseget .house {
+  width: 100%;
+}
+.body4 .chooseget .house .any {
+  width: 30%;
+  margin-right: 3%;
+}
+.body4 .chooseget .house .any img {
+  width: 80px;
+  height: 120px;
+}
+.body4 .chooseget .house .any .size {
+  font-family: roboto-bold;
+  font-weight: 700;
+  font-size: 20px;
+}
+.body4 .chooseget .house .any .anyjob {
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.body5 {
+  width: 100%;
+  margin-top: 8%;
+}
+.body5 .body51 {
+  width: 50%;
+}
+.body5 .body51 img {
+  width: 75%;
+  margin-left: 14%;
+}
+.body5 .body52 {
+  width: 50%;
+  margin-left: 3%;
+}
+.body5 .body52 .howdoes {
+  width: 95%;
+}
+.body5 .body52 .howdoes .how {
+  font-size: 41px;
+  font-family: roboto-bold;
+  font-weight: 700;
+}
+.body5 .body52 .howdoes .house2 {
+  width: 91%;
+}
+.body5 .body52 .howdoes .house2 .post {
+  font-size: 20px;
+  font-family: roboto-bold;
+  font-weight: 700;
+}
+.body5 .body52 .howdoes .house2 .simply {
+  margin-top: 2%;
+  font-size: 16px;
+  font-family: roboto-regular;
+  font-weight: 400;
+}
+.body5 .body52 .howdoes .postaproject {
+  height: 45px;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+  background-color: #f20091;
+  display: flex;
+  color: white;
+  font-family: roboto-regular;
+  font-weight: 700;
+  font-size: 20px;
+}
+.body5 .body52 .howdoes .postaproject:hover {
+  color: white;
+  background-color: #FA5F9B;
+}
+
+.body6 {
+  margin-top: 8%;
+}
+.body6 .body60 {
+  display: none;
+  width: 50%;
+}
+.body6 .body60 img {
+  width: 75%;
+}
+.body6 .body61 {
+  width: 50%;
+  margin-left: 6%;
+}
+.body6 .body61 .control {
+  width: 100%;
+}
+.body6 .body61 .control .becontrol {
+  font-family: roboto-bold;
+  font-size: 41px;
+  font-family: 700;
+}
+.body6 .body61 .control .usecontrol {
+  font-family: roboto-regular;
+  font-size: 20px;
+  font-family: 400;
+  width: 93%;
+}
+.body6 .body61 .mobile {
+  width: 100%;
+}
+.body6 .body61 .mobile .life {
+  width: 46%;
+  margin-right: 4%;
+  margin-top: 2%;
+}
+.body6 .body61 .mobile .life .lifechat img {
+  width: 80px;
+  height: 120px;
+}
+.body6 .body61 .mobile .life .live {
+  font-family: roboto-bold;
+  font-size: 20px;
+  font-weight: 700;
+}
+.body6 .body61 .mobile .life .chat {
+  font-family: roboto-regular;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 2%;
+}
+.body6 .body61 .mobile .lifee {
+  width: 46%;
+  margin-right: 4%;
+  margin-top: 2%;
+}
+.body6 .body61 .mobile .lifee .lifechat img {
+  width: 80px;
+  height: 120px;
+}
+.body6 .body61 .mobile .lifee .live {
+  font-family: roboto-bold;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: -8%;
+}
+.body6 .body61 .mobile .lifee .chat {
+  font-family: roboto-regular;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 2%;
+}
+.body6 .body62 {
+  width: 50%;
+}
+.body6 .body62 img {
+  width: 75%;
+}
+
+.body7 {
+  width: 100%;
+  margin-top: 8%;
+}
+.body7 .body71 {
+  width: 50%;
+}
+.body7 .body71 img {
+  width: 75%;
+  margin-left: 14%;
+}
+.body7 .body72 {
+  width: 45%;
+  margin-left: 2%;
+}
+.body7 .body72 .control {
+  width: 100%;
+}
+.body7 .body72 .control .becontrol {
+  font-family: roboto-bold;
+  font-size: 41px;
+  font-family: 700;
+}
+.body7 .body72 .control .usecontrol {
+  font-family: roboto-regular;
+  font-size: 20px;
+  font-family: 400;
+  width: 90%;
+}
+.body7 .body72 .mobile {
+  width: 100%;
+}
+.body7 .body72 .mobile .life {
+  width: 50%;
+  margin-right: 4%;
+  margin-top: 2%;
+}
+.body7 .body72 .mobile .life .lifechat img {
+  width: 80px;
+  height: 120px;
+}
+.body7 .body72 .mobile .life .live {
+  font-family: roboto-bold;
+  font-size: 20px;
+  font-weight: 700;
+}
+.body7 .body72 .mobile .life .chat {
+  font-family: roboto-regular;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 2%;
+}
+.body7 .body72 .mobile .lifee {
+  width: 35%;
+  margin-left: 7%;
+  margin-top: 2%;
+}
+.body7 .body72 .mobile .lifee .lifechat img {
+  width: 80px;
+  height: 120px;
+}
+.body7 .body72 .mobile .lifee .live {
+  font-family: roboto-bold;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: -12%;
+}
+.body7 .body72 .mobile .lifee .chat {
+  font-family: roboto-regular;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 2%;
+}
+
+.body8 {
+  background-color: #161E2C;
+  height: 52vh;
+}
+.body8 .soso .so {
+  margin-top: 5%;
+  position: absolute;
+  margin-left: 7%;
+  font-family: roboto-bold;
+  font-weight: 700;
+  font-size: 41px;
+  color: white;
+}
+.body8 .soso .ss {
+  position: absolute;
+  margin-left: 7%;
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+  margin-top: 10%;
+}
+.body8 .soso .post {
+  height: 45px;
+  width: 170px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 0, 153, 0.9725490196);
+  display: flex;
+  color: white;
+  font-family: roboto-regular;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 14%;
+  margin-left: 7%;
+}
+.body8 .soso .post:hover {
+  color: white;
+  background-color: #FA5F9B;
+}
+
+.body9 .house .still {
+  font-family: roboto-bold;
+  font-weight: 700;
+  font-size: 41px;
+  margin-left: 7%;
+}
+.body9 .house .here {
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 24px;
+  margin-left: 7%;
+  width: 88%;
+}
+.body9 .house .housee {
+  justify-content: center;
+  align-items: center;
+  margin-right: 3%;
+  margin-left: 2.8%;
+}
+.body9 .house .housee .laugh {
+  width: 27%;
+  margin-right: 4%;
+}
+.body9 .house .housee .laugh img {
+  height: 250px;
+  width: 100%;
+}
+.body9 .house .housee .laugh .design {
+  font-family: roboto-bold;
+  font-size: 24px;
+  font-weight: 700;
+}
+.body9 .house .housee .laugh .usd {
+  font-family: roboto-bold;
+  font-size: 24px;
+  font-weight: 700;
+}
+.body9 .house .more {
+  width: 16%;
+  height: 8vh;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: roboto-regular;
+  background-color: #f20091;
+}
+.body9 .house .more:hover {
+  background-color: #FA5F9B;
+}
+
+.body10 {
+  background-color: #1F2836;
+  height: 60vh;
+}
+.body10 .soso .so {
+  margin-top: 5%;
+  position: absolute;
+  margin-left: 7%;
+  font-family: roboto-bold;
+  font-weight: 700;
+  font-size: 41px;
+  color: white;
+}
+.body10 .soso .ss {
+  position: absolute;
+  margin-left: 7%;
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+  margin-top: 10%;
+}
+.body10 .soso .sss {
+  position: absolute;
+  margin-left: 7%;
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+  margin-top: 10%;
+}
+.body10 .soso .sss a {
+  color: white;
+}
+.body10 .soso .sss a:hover {
+  color: #139FF0;
+}
+.body10 .soso .sss .s1 {
+  margin-right: 50px;
+}
+.body10 .soso .sss .s2 {
+  margin-left: 45px;
+}
+.body10 .soso .sss .s3 {
+  margin-left: 60px;
+}
+
+.body11 {
+  height: 70vh;
+  background-color: #161E2C;
+}
+.body11 .home {
+  width: 93%;
+  margin-left: 7%;
+}
+.body11 .home .first {
+  margin-top: 1%;
+  width: 14%;
+  margin-right: 2%;
+}
+.body11 .home .first img {
+  width: 130px;
+  height: 80px;
+}
+.body11 .home .first .us {
+  font-family: roboto-regular;
+  font-size: 14px;
+  font-weight: 400;
+}
+.body11 .home .first i {
+  margin-right: 8%;
+  margin-top: 1%;
+  font-size: 22px;
+}
+.body11 .home .second {
+  margin-top: 3.5%;
+  width: 15%;
+  margin-right: 1%;
+}
+.body11 .home .second .free {
+  font-family: roboto-bold;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 3%;
+}
+.body11 .home .second .cat {
+  font-family: roboto-regular;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 3%;
+  color: #b9b3b3;
+}
+.body11 .home .second .cat:hover {
+  color: white;
+}
+.body11 .home .sixth {
+  margin-top: 3.5%;
+  width: 15%;
+  margin-right: 1%;
+}
+.body11 .home .sixth .free {
+  font-family: roboto-bold;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5%;
+}
+.body11 .home .sixth img {
+  margin-bottom: 15%;
+}
+.body11 .home .sixth .social i {
+  color: white;
+  font-size: 20px;
+  margin-right: 15%;
+  margin-top: 10%;
+}
+.body11 .home .sixth .social i:hover {
+  color: blue;
+}
+
+@media (max-width: 1280px) {
+  .header {
+    height: 8%;
+  }
+
+  .play {
+    margin-top: -0.4%;
+  }
+  .play img {
+    height: 83vh;
+  }
+  .play .playy {
+    margin-top: -40%;
+    margin-left: 4%;
+  }
+}
+@media (max-width: 1180px) {
+  .header {
+    height: 8%;
+  }
+  .header .head1 {
+    margin-left: 2%;
+  }
+  .header .head1 div {
+    margin-top: 1%;
+    margin-left: -4%;
+  }
+  .header .head2 {
+    margin-right: -2%;
+  }
+
+  .header2 {
+    margin-top: 5%;
+  }
+  .header2 .head3 {
+    margin-left: 2%;
+  }
+
+  .play img {
+    height: 65vh;
+  }
+  .play .playy {
+    margin-left: 1%;
+    margin-top: -37%;
+    width: 40%;
+  }
+  .play .playy .money .hire {
+    width: 38%;
+    height: 55px;
+  }
+  .play .playy .money .hire .hiree {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 8px;
+  }
+  .play .man {
+    margin-top: -5%;
+    margin-left: 1%;
+    width: 98%;
+  }
+  .play .man .hire {
+    height: 60px;
+  }
+  .play .man .earn {
+    height: 60px;
+  }
+
+  .body4 .chooseget {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .body4 .chooseget .choose {
+    margin-left: 1%;
+  }
+  .body4 .chooseget .get {
+    margin-left: 1%;
+  }
+  .body4 .chooseget .house {
+    width: 100%;
+  }
+  .body4 .chooseget .house .any {
+    margin-left: 1%;
+    width: 30%;
+  }
+
+  .body5 .body51 img {
+    height: 500px;
+    width: 96%;
+    margin-left: 4%;
+  }
+
+  .body6 {
+    width: 100% !important;
+  }
+  .body6 .body61 {
+    margin-left: 1%;
+  }
+  .body6 .body61 .mobile .lifee {
+    margin-left: 1%;
+  }
+  .body6 .body62 img {
+    height: 500px;
+    width: 96%;
+  }
+
+  .body7 .body71 img {
+    height: 500px;
+    width: 96%;
+    margin-left: 4%;
+  }
+
+  .body8 {
+    height: 40vh;
+  }
+  .body8 .soso .so {
+    margin-left: 1%;
+  }
+  .body8 .soso .ss {
+    margin-left: 1%;
+  }
+  .body8 .soso .post {
+    margin-left: 1%;
+  }
+
+  .body9 .house .still {
+    margin-left: 1%;
+  }
+  .body9 .house .here {
+    margin-left: 1%;
+  }
+  .body9 .house .housee .laugh {
+    width: 30%;
+  }
+
+  .body10 {
+    height: 60vh;
+  }
+  .body10 .soso .so {
+    margin-left: 1%;
+  }
+  .body10 .soso .ss {
+    margin-left: 1%;
+  }
+
+  .body11 {
+    height: 60vh;
+  }
+  .body11 .home {
+    margin-left: 1%;
+  }
+  .body11 .home .first {
+    width: 25%;
+  }
+}
+@media (max-width: 1024px) {
+  .header {
+    height: 9%;
+  }
+  .header .head1 {
+    margin-left: 2%;
+  }
+  .header .head1 div {
+    margin-top: 1%;
+    margin-left: -4%;
+  }
+  .header .head2 {
+    margin-right: -2%;
+  }
+
+  .header2 {
+    margin-top: 6%;
+  }
+  .header2 .head3 {
+    margin-left: 2%;
+  }
+
+  .play img {
+    height: 70vh;
+  }
+  .play .playy {
+    margin-left: 1%;
+    margin-top: -44%;
+    width: 43%;
+  }
+  .play .playy .money .hire {
+    width: 40%;
+    height: 55px;
+  }
+  .play .playy .money .hire .hiree {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 8px;
+  }
+  .play .man {
+    margin-top: -6.5%;
+    margin-left: 1%;
+    width: 98%;
+  }
+  .play .man .hire {
+    height: 66px;
+  }
+  .play .man .earn {
+    height: 66px;
+  }
+
+  .body4 .chooseget {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .body4 .chooseget .choose {
+    margin-left: 1%;
+  }
+  .body4 .chooseget .get {
+    margin-left: 1%;
+  }
+  .body4 .chooseget .house {
+    width: 100%;
+  }
+  .body4 .chooseget .house .any {
+    margin-left: 1%;
+    width: 30%;
+  }
+
+  .body5 .body51 img {
+    height: 500px;
+    width: 96%;
+    margin-left: 4%;
+  }
+
+  .body6 {
+    width: 100% !important;
+  }
+  .body6 .body61 {
+    margin-left: 1%;
+  }
+  .body6 .body61 .mobile .lifee {
+    margin-left: 1%;
+  }
+  .body6 .body62 img {
+    height: 500px;
+    width: 96%;
+  }
+
+  .body7 .body71 img {
+    height: 500px;
+    width: 96%;
+    margin-left: 4%;
+  }
+
+  .body8 .soso .so {
+    margin-left: 1%;
+  }
+  .body8 .soso .ss {
+    margin-left: 1%;
+  }
+  .body8 .soso .post {
+    margin-left: 1%;
+  }
+
+  .body9 .house .still {
+    margin-left: 1%;
+  }
+  .body9 .house .here {
+    margin-left: 1%;
+  }
+  .body9 .house .housee .laugh {
+    width: 30%;
+  }
+  .body9 .house .more {
+    width: 23%;
+  }
+
+  .body10 .soso .so {
+    margin-left: 1%;
+  }
+  .body10 .soso .ss {
+    margin-left: 1%;
+  }
+
+  .body11 .home {
+    width: 99%;
+    margin-left: 1%;
+  }
+  .body11 .home .first {
+    width: 15%;
+  }
+}
+@media (max-width: 998px) {
+  .header2 {
+    margin-top: 7%;
+  }
+}
+@media (max-width: 915px) {
+  .header {
+    height: 16%;
+  }
+  .header .head1 div {
+    margin-top: 2px;
+  }
+
+  .header2 {
+    margin-top: 7%;
+  }
+
+  .play {
+    margin-top: -2px;
+  }
+  .play img {
+    height: 140vh;
+  }
+  .play .playy {
+    width: 38%;
+    margin-top: -58%;
+  }
+  .play .playy .money .hire {
+    width: 48%;
+    height: 48px;
+  }
+  .play .man .hire {
+    height: 59px;
+  }
+  .play .man .earn {
+    height: 59px;
+  }
+
+  .body4 .chooseget .choose {
+    font-size: 32px;
+  }
+  .body4 .chooseget .get {
+    font-size: 20px;
+  }
+  .body4 .chooseget .house .any img {
+    width: 60px;
+    height: 90px;
+  }
+  .body4 .chooseget .house .any .size {
+    font-size: 18px;
+  }
+  .body4 .chooseget .house .any .anyjob {
+    font-size: 16px;
+  }
+
+  .body5 .body51 {
+    width: 45%;
+  }
+  .body5 .body51 img {
+    height: 80%;
+    width: 100%;
+  }
+  .body5 .body52 {
+    width: 55%;
+    margin-left: 5%;
+  }
+  .body5 .body52 .howdoes {
+    width: 98%;
+  }
+  .body5 .body52 .howdoes .how {
+    font-size: 32px;
+  }
+  .body5 .body52 .howdoes .house2 {
+    width: 98%;
+  }
+  .body5 .body52 .howdoes .house2 .post {
+    font-size: 20px;
+  }
+  .body5 .body52 .howdoes .house2 .simply {
+    font-size: 16px;
+  }
+  .body5 .body52 .howdoes .postaproject {
+    height: 46px;
+    width: 38%;
+  }
+
+  .body6 .body61 {
+    width: 60%;
+  }
+  .body6 .body61 .control .becontrol {
+    font-size: 32px;
+  }
+  .body6 .body61 .control .usecontrol {
+    width: 98%;
+  }
+  .body6 .body61 .mobile {
+    width: 100%;
+  }
+  .body6 .body61 .mobile .life .lifechat img {
+    width: 60px;
+    height: 90px;
+  }
+  .body6 .body61 .mobile .life .chat {
+    font-size: 16px;
+  }
+  .body6 .body61 .mobile .lifee .lifechat img {
+    width: 60px;
+    height: 90px;
+  }
+  .body6 .body61 .mobile .lifee .chat {
+    font-size: 16px;
+  }
+  .body6 .body62 {
+    width: 40%;
+  }
+  .body6 .body62 img {
+    height: 80%;
+    width: 100%;
+  }
+
+  .body7 .body71 {
+    width: 40%;
+  }
+  .body7 .body71 img {
+    height: 80%;
+    width: 100%;
+  }
+  .body7 .body72 {
+    width: 60%;
+    margin-left: 5%;
+  }
+  .body7 .body72 .control .becontrol {
+    font-size: 32px;
+  }
+  .body7 .body72 .control .usecontrol {
+    width: 98%;
+  }
+  .body7 .body72 .mobile {
+    width: 100%;
+  }
+  .body7 .body72 .mobile .life .lifechat img {
+    width: 60px;
+    height: 90px;
+  }
+  .body7 .body72 .mobile .life .chat {
+    font-size: 16px;
+  }
+  .body7 .body72 .mobile .lifee .lifechat img {
+    width: 60px;
+    height: 90px;
+  }
+  .body7 .body72 .mobile .lifee .chat {
+    font-size: 16px;
+  }
+
+  .body8 {
+    height: 70vh;
+  }
+
+  .body9 .house .housee .laugh {
+    width: 30%;
+  }
+
+  .body10 {
+    height: 70vh;
+  }
+
+  .body11 {
+    height: fit-content;
+  }
+}
+@media (max-width: 914px) {
+  .header {
+    height: 16%;
+  }
+  .header .head1 div {
+    margin-top: 2px;
+  }
+
+  .header2 {
+    margin-top: 7%;
+  }
+
+  .play {
+    margin-top: -2px;
+  }
+  .play img {
+    height: 150vh;
+  }
+  .play .playy {
+    width: 38%;
+    margin-top: -58%;
+  }
+  .play .playy .money .hire {
+    width: 48%;
+    height: 48px;
+  }
+  .play .man {
+    margin-top: -7%;
+  }
+  .play .man .hire {
+    height: 64px;
+  }
+  .play .man .earn {
+    height: 64px;
+  }
+
+  .body4 .chooseget .choose {
+    font-size: 32px;
+  }
+  .body4 .chooseget .get {
+    font-size: 20px;
+  }
+  .body4 .chooseget .house .any img {
+    width: 60px;
+    height: 90px;
+  }
+  .body4 .chooseget .house .any .size {
+    font-size: 18px;
+  }
+  .body4 .chooseget .house .any .anyjob {
+    font-size: 16px;
+  }
+
+  .body5 .body51 {
+    width: 45%;
+  }
+  .body5 .body51 img {
+    height: 80%;
+    width: 100%;
+  }
+  .body5 .body52 {
+    width: 55%;
+    margin-left: 5%;
+  }
+  .body5 .body52 .howdoes {
+    width: 98%;
+  }
+  .body5 .body52 .howdoes .how {
+    font-size: 32px;
+  }
+  .body5 .body52 .howdoes .house2 {
+    width: 98%;
+  }
+  .body5 .body52 .howdoes .house2 .post {
+    font-size: 20px;
+  }
+  .body5 .body52 .howdoes .house2 .simply {
+    font-size: 16px;
+  }
+  .body5 .body52 .howdoes .postaproject {
+    height: 46px;
+    width: 38%;
+  }
+
+  .body6 .body61 {
+    width: 60%;
+  }
+  .body6 .body61 .control .becontrol {
+    font-size: 32px;
+  }
+  .body6 .body61 .control .usecontrol {
+    width: 98%;
+  }
+  .body6 .body61 .mobile {
+    width: 100%;
+  }
+  .body6 .body61 .mobile .life .lifechat img {
+    width: 60px;
+    height: 90px;
+  }
+  .body6 .body61 .mobile .life .chat {
+    font-size: 16px;
+  }
+  .body6 .body61 .mobile .lifee .lifechat img {
+    width: 60px;
+    height: 90px;
+  }
+  .body6 .body61 .mobile .lifee .chat {
+    font-size: 16px;
+  }
+  .body6 .body62 {
+    width: 40%;
+  }
+  .body6 .body62 img {
+    height: 80%;
+    width: 100%;
+  }
+
+  .body7 .body71 {
+    width: 40%;
+  }
+  .body7 .body71 img {
+    height: 80%;
+    width: 100%;
+  }
+  .body7 .body72 {
+    width: 60%;
+    margin-left: 5%;
+  }
+  .body7 .body72 .control .becontrol {
+    font-size: 32px;
+  }
+  .body7 .body72 .control .usecontrol {
+    width: 98%;
+  }
+  .body7 .body72 .mobile {
+    width: 100%;
+  }
+  .body7 .body72 .mobile .life .lifechat img {
+    width: 60px;
+    height: 90px;
+  }
+  .body7 .body72 .mobile .life .chat {
+    font-size: 16px;
+  }
+  .body7 .body72 .mobile .lifee .lifechat img {
+    width: 60px;
+    height: 90px;
+  }
+  .body7 .body72 .mobile .lifee .chat {
+    font-size: 16px;
+  }
+
+  .body8 {
+    height: 75vh;
+  }
+  .body8 .soso .so {
+    margin-top: 8%;
+    font-size: 32px;
+  }
+  .body8 .soso .ss {
+    margin-top: 13%;
+    font-size: 20px;
+  }
+  .body8 .soso .post {
+    margin-top: 17%;
+  }
+
+  .body9 .house .still {
+    font-size: 32px;
+  }
+  .body9 .house .here {
+    font-size: 20px;
+  }
+  .body9 .house .housee .laugh {
+    width: 30%;
+    margin-right: 3%;
+  }
+  .body9 .house .housee .laugh .design {
+    font-size: 14px;
+  }
+  .body9 .house .housee .laugh .usd {
+    font-size: 14px;
+  }
+  .body9 .house .more {
+    height: 11vh;
+  }
+
+  .body10 {
+    height: 75vh;
+  }
+  .body10 .soso .so {
+    font-size: 32px;
+  }
+  .body10 .soso .ss {
+    font-size: 18px;
+  }
+
+  .body11 {
+    height: 100vh;
+  }
+}
+@media (max-width: 912px) {
+  .header {
+    height: 6%;
+  }
+
+  .header2 {
+    margin-top: 8%;
+  }
+
+  .play {
+    margin-top: -2px;
+  }
+  .play img {
+    height: 42vh;
+  }
+  .play .playy {
+    width: 38%;
+    margin-top: -55%;
+  }
+  .play .playy .money .hire {
+    width: 48%;
+    height: 50px;
+  }
+  .play .man .hire {
+    height: 65px;
+  }
+  .play .man .earn {
+    height: 65px;
+  }
+
+  .body5 .body51 {
+    width: 45%;
+  }
+  .body5 .body51 img {
+    height: 80%;
+    width: 100%;
+  }
+  .body5 .body52 {
+    width: 55%;
+    margin-left: 5%;
+  }
+  .body5 .body52 .howdoes {
+    width: 98%;
+  }
+  .body5 .body52 .howdoes .how {
+    font-size: 32px;
+  }
+  .body5 .body52 .howdoes .house2 {
+    width: 98%;
+  }
+  .body5 .body52 .howdoes .postaproject {
+    height: 48px;
+    width: 40%;
+  }
+
+  .body6 .body61 {
+    width: 60%;
+  }
+  .body6 .body61 .control .becontrol {
+    font-size: 32px;
+  }
+  .body6 .body61 .control .usecontrol {
+    width: 98%;
+  }
+  .body6 .body61 .mobile {
+    width: 100%;
+  }
+  .body6 .body61 .mobile .life .lifechat img {
+    width: 60px;
+    height: 90px;
+  }
+  .body6 .body61 .mobile .life .chat {
+    font-size: 16px;
+  }
+  .body6 .body61 .mobile .lifee .lifechat img {
+    width: 60px;
+    height: 90px;
+  }
+  .body6 .body61 .mobile .lifee .chat {
+    font-size: 16px;
+  }
+  .body6 .body62 {
+    width: 40%;
+  }
+  .body6 .body62 img {
+    height: 80%;
+    width: 100%;
+  }
+
+  .body7 .body71 {
+    width: 40%;
+  }
+  .body7 .body71 img {
+    height: 80%;
+    width: 100%;
+  }
+  .body7 .body72 {
+    width: 60%;
+    margin-left: 5%;
+  }
+  .body7 .body72 .control .becontrol {
+    font-size: 32px;
+  }
+  .body7 .body72 .control .usecontrol {
+    width: 98%;
+  }
+  .body7 .body72 .mobile {
+    width: 100%;
+  }
+  .body7 .body72 .mobile .life .lifechat img {
+    width: 60px;
+    height: 90px;
+  }
+  .body7 .body72 .mobile .life .chat {
+    font-size: 16px;
+  }
+  .body7 .body72 .mobile .lifee .lifechat img {
+    width: 60px;
+    height: 90px;
+  }
+  .body7 .body72 .mobile .lifee .chat {
+    font-size: 16px;
+  }
+
+  .body8 {
+    height: 25vh;
+  }
+  .body8 .soso .so {
+    margin-top: 8%;
+    font-size: 32px;
+  }
+  .body8 .soso .ss {
+    margin-top: 13%;
+    font-size: 20px;
+  }
+  .body8 .soso .post {
+    margin-top: 17%;
+  }
+
+  .body9 .house .still {
+    font-size: 32px;
+  }
+  .body9 .house .here {
+    font-size: 20px;
+  }
+  .body9 .house .housee .laugh {
+    width: 32%;
+    margin-right: 3%;
+  }
+  .body9 .house .housee .laugh img {
+    height: 220px;
+  }
+  .body9 .house .housee .laugh .design {
+    font-size: 14px;
+  }
+  .body9 .house .housee .laugh .usd {
+    font-size: 14px;
+  }
+  .body9 .house .more {
+    height: 4vh;
+    width: 27%;
+  }
+
+  .body10 {
+    height: 30vh;
+  }
+  .body10 .soso .so {
+    font-size: 32px;
+  }
+  .body10 .soso .ss {
+    font-size: 18px;
+  }
+
+  .body11 {
+    height: 35vh;
+  }
+}
+@media (max-width: 910px) {
+  .header {
+    height: 8%;
+  }
+
+  .play img {
+    height: 65vh;
+  }
+}
+@media (max-width: 896px) {
+  .header {
+    height: 17%;
+  }
+
+  .header2 {
+    margin-top: 7.4%;
+  }
+
+  .play img {
+    height: 145vh;
+  }
+  .play .playy {
+    margin-top: -58%;
+  }
+  .play .man {
+    margin-top: -7.2%;
+  }
+
+  .body9 .house .more {
+    height: 12vh;
+  }
+
+  .body10 {
+    height: 80vh;
+  }
+
+  .body11 {
+    height: fit-content;
+  }
+}
+@media (max-width: 851px) {
+  .play .playy {
+    margin-top: -58%;
+  }
+  .play .man {
+    margin-top: -7.6%;
+  }
+}
+@media (max-width: 844px) {
+  .header {
+    height: 17%;
+  }
+
+  .header2 {
+    margin-top: 7.5%;
+  }
+
+  .play img {
+    height: 145vh;
+  }
+  .play .playy {
+    margin-top: -57%;
+  }
+  .play .man {
+    margin-top: -7.7%;
+  }
+}
+@media (max-width: 822px) {
+  .play .man {
+    margin-top: -8%;
+  }
+}
+@media (max-width: 820px) {
+  .header {
+    height: 5%;
+  }
+  .header .head1 {
+    margin-left: 2%;
+  }
+  .header .head1 div {
+    margin-top: 0.5%;
+    margin-left: -4%;
+  }
+  .header .head2 {
+    margin-right: -2%;
+  }
+
+  .header2 {
+    margin-top: 7%;
+  }
+  .header2 .head3 {
+    margin-left: 2%;
+  }
+
+  .play {
+    margin-top: -1%;
+  }
+  .play img {
+    height: 50vh;
+  }
+  .play .playy {
+    margin-left: 1%;
+    margin-top: -60%;
+    width: 40%;
+  }
+  .play .playy .money .hire {
+    width: 55%;
+    height: 52px;
+  }
+  .play .playy .money .hire .hiree {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 8px;
+  }
+  .play .man {
+    margin-top: -8.2%;
+    margin-left: 1%;
+    width: 98%;
+  }
+  .play .man .hire {
+    height: 67px;
+  }
+  .play .man .earn {
+    height: 67px;
+  }
+
+  .body4 .chooseget .choose {
+    font-size: 32px;
+  }
+  .body4 .chooseget .get {
+    font-size: 20px;
+  }
+  .body4 .chooseget .house .any img {
+    width: 60px;
+    height: 90px;
+  }
+  .body4 .chooseget .house .any .size {
+    font-size: 18px;
+  }
+  .body4 .chooseget .house .any .anyjob {
+    font-size: 16px;
+  }
+
+  .body5 .body51 {
+    width: 43%;
+  }
+  .body5 .body51 img {
+    height: 68%;
+  }
+  .body5 .body52 {
+    width: 57%;
+    margin-left: 5%;
+  }
+  .body5 .body52 .howdoes {
+    width: 98%;
+  }
+  .body5 .body52 .howdoes .how {
+    font-size: 32px;
+  }
+  .body5 .body52 .howdoes .house2 {
+    width: 98%;
+  }
+  .body5 .body52 .howdoes .postaproject {
+    height: 48px;
+    width: 40%;
+  }
+
+  .body6 .body61 {
+    width: 60%;
+  }
+  .body6 .body61 .control .becontrol {
+    font-size: 32px;
+  }
+  .body6 .body61 .control .usecontrol {
+    width: 98%;
+  }
+  .body6 .body61 .mobile {
+    width: 100%;
+  }
+  .body6 .body61 .mobile .life .lifechat img {
+    width: 60px;
+    height: 90px;
+  }
+  .body6 .body61 .mobile .life .chat {
+    font-size: 16px;
+  }
+  .body6 .body61 .mobile .lifee .lifechat img {
+    width: 60px;
+    height: 90px;
+  }
+  .body6 .body61 .mobile .lifee .chat {
+    font-size: 16px;
+  }
+  .body6 .body62 {
+    width: 40%;
+  }
+  .body6 .body62 img {
+    height: 75%;
+  }
+
+  .body7 .body71 {
+    width: 40%;
+  }
+  .body7 .body71 img {
+    height: 75%;
+  }
+  .body7 .body72 {
+    width: 60%;
+    margin-left: 5%;
+  }
+  .body7 .body72 .control .becontrol {
+    font-size: 32px;
+  }
+  .body7 .body72 .control .usecontrol {
+    width: 98%;
+  }
+  .body7 .body72 .mobile {
+    width: 100%;
+  }
+  .body7 .body72 .mobile .life .lifechat img {
+    width: 60px;
+    height: 90px;
+  }
+  .body7 .body72 .mobile .life .chat {
+    font-size: 16px;
+  }
+  .body7 .body72 .mobile .lifee .lifechat img {
+    width: 60px;
+    height: 90px;
+  }
+  .body7 .body72 .mobile .lifee .chat {
+    font-size: 16px;
+  }
+
+  .body9 .house .more {
+    height: 6vh;
+  }
+
+  .body10 {
+    height: 30vh;
+  }
+}
+@media (max-width: 811px) {
+  .play .man {
+    margin-top: -8.2%;
+  }
+}
+@media (max-width: 775px) {
+  .header .head1 {
+    margin-left: 1%;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    height: 7%;
+  }
+  .header .head1 {
+    margin-left: 1%;
+  }
+  .header .head1 div {
+    margin-top: 2px;
+  }
+
+  .header2 {
+    margin-top: 8%;
+  }
+
+  .play img {
+    height: 67vh;
+  }
+  .play .playy {
+    margin-top: -70%;
+    width: 38%;
+  }
+  .play .man {
+    margin-top: -9%;
+    margin-left: 1%;
+    width: 98%;
+  }
+  .play .man .hire {
+    height: 69px;
+  }
+  .play .man .earn {
+    height: 69px;
+  }
+}
+@media (max-width: 767px) {
+  .header .hide {
+    display: none !important;
+  }
+
+  .header2 .head3 button {
+    margin-right: 10px;
+  }
+
+  .play img {
+    height: 90vh;
+  }
+  .play .playy {
+    width: 95%;
+    margin-top: -33%;
+  }
+  .play .playy .okayy {
+    display: none;
+  }
+  .play .playy .okay {
+    display: inherit;
+    font-size: 32px;
+  }
+  .play .playy h5 {
+    font-size: 20px;
+  }
+  .play .playy .money {
+    width: 45%;
+  }
+  .play .man {
+    display: none;
+  }
+  .play .mann {
+    display: inherit;
+  }
+  .play .mann .whyspring {
+    margin-top: 18%;
+  }
+
+  .body4 .chooseget .choose {
+    font-size: 32px;
+  }
+  .body4 .chooseget .get {
+    font-size: 16px;
+  }
+  .body4 .chooseget .house {
+    display: block !important;
+  }
+  .body4 .chooseget .house .any {
+    width: 94%;
+  }
+  .body4 .chooseget .house .any .size {
+    font-size: 18px;
+  }
+  .body4 .chooseget .house .any .anyjob {
+    font-size: 16px;
+  }
+
+  .body5 {
+    display: block !important;
+  }
+  .body5 .body51 {
+    width: 100%;
+  }
+  .body5 .body51 img {
+    width: 94%;
+    margin-left: 3%;
+  }
+  .body5 .body52 {
+    width: 98%;
+    margin-left: 2%;
+  }
+  .body5 .body52 .howdoes .postaproject {
+    width: 17%;
+    font-size: 14px;
+    height: 35px;
+  }
+
+  .body6 {
+    display: block !important;
+  }
+  .body6 .body6 {
+    display: inherit;
+    width: 100%;
+  }
+  .body6 .body6 img {
+    width: 94%;
+    margin-left: 3%;
+  }
+  .body6 .body61 {
+    width: 98%;
+    margin-left: 2%;
+  }
+  .body6 .body61 .mobile {
+    display: block !important;
+    width: 98%;
+  }
+  .body6 .body61 .mobile .life {
+    width: 98%;
+  }
+  .body6 .body61 .mobile .lifee {
+    width: 98%;
+  }
+  .body6 .body61 .mobile .lifee .live {
+    margin-top: -3%;
+  }
+  .body6 .body62 {
+    display: none;
+  }
+
+  .body7 {
+    display: block !important;
+  }
+  .body7 .body71 {
+    width: 100%;
+  }
+  .body7 .body71 img {
+    width: 94%;
+    margin-left: 3%;
+  }
+  .body7 .body72 {
+    width: 98%;
+    margin-left: 2%;
+  }
+  .body7 .body72 .control {
+    font-size: 32px;
+  }
+  .body7 .body72 .control .usecontrol {
+    font-size: 18px;
+  }
+  .body7 .body72 .mobile {
+    display: block !important;
+    width: 98%;
+  }
+  .body7 .body72 .mobile .life {
+    width: 98%;
+  }
+  .body7 .body72 .mobile .lifee {
+    width: 98%;
+    margin-left: 1%;
+  }
+  .body7 .body72 .mobile .lifee .live {
+    margin-top: -3%;
+  }
+
+  .body8 {
+    height: 35vh;
+  }
+  .body8 .soso .so {
+    font-size: 32px;
+    margin-left: 0%;
+  }
+  .body8 .soso .ss {
+    font-size: 16px;
+    margin-left: 0%;
+  }
+  .body8 .soso .post {
+    font-size: 14px;
+    margin-left: 0%;
+    width: 15%;
+  }
+
+  .body9 .house .still {
+    font-size: 32px;
+  }
+  .body9 .house .here {
+    font-size: 16px;
+  }
+  .body9 .house .housee {
+    display: block !important;
+  }
+  .body9 .house .housee .laugh {
+    width: 50%;
+    margin-bottom: 5%;
+  }
+  .body9 .house .more {
+    height: 5vh;
+    width: 23%;
+    font-size: 14px;
+  }
+
+  .body10 {
+    height: 42vh;
+  }
+  .body10 .soso .so {
+    font-size: 32px;
+  }
+  .body10 .soso .ss {
+    font-size: 16px;
+  }
+  .body10 .soso .sss {
+    display: block !important;
+  }
+  .body10 .soso .sss a {
+    display: block !important;
+    margin-bottom: 1%;
+  }
+  .body10 .soso .sss a .s2 {
+    margin-left: 0%;
+  }
+  .body10 .soso .sss a .s3 {
+    margin-left: 0%;
+  }
+
+  .body11 {
+    height: fit-content;
+  }
+  .body11 .home {
+    display: block !important;
+  }
+  .body11 .home .first {
+    margin-left: 2%;
+  }
+  .body11 .home .second {
+    margin-left: 2%;
+  }
+  .body11 .home .sixth {
+    margin-left: 2%;
+  }
+  .body11 .home .sixth .imag {
+    display: flex;
+  }
+  .body11 .home .sixth .imag .imag2 {
+    margin-left: 70%;
+  }
+  .body11 .home .sixth .social .fa-youtube-play, .body11 .home .sixth .social .fa-twitter, .body11 .home .sixth .social .fa-instagram {
+    margin-left: 70%;
+  }
+}
+@media (max-width: 740px) {
+  .header {
+    height: 17.5%;
+  }
+  .header .hide {
+    display: none !important;
+  }
+
+  .header2 {
+    margin-top: 8.5%;
+    width: 100%;
+  }
+  .header2 .head3 {
+    width: 100%;
+  }
+
+  .play {
+    margin-top: -2px;
+  }
+  .play img {
+    height: 105vh;
+    width: 100%;
+  }
+  .play .playy {
+    margin-left: 2%;
+    width: 92%;
+    margin-top: -35%;
+  }
+  .play .playy .okayy {
+    display: none;
+  }
+  .play .playy .okay {
+    display: inherit;
+    font-family: roboto-bold;
+    font-weight: 700;
+    font-size: 32px;
+  }
+  .play .playy h5 {
+    font-family: roboto-regular;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .play .playy .money .hire {
+    width: 55%;
+    height: 50px;
+  }
+  .play .man {
+    display: none;
+  }
+  .play .mann {
+    display: inherit;
+  }
+
+  .body4 .chooseget .choose {
+    font-size: 32px;
+  }
+  .body4 .chooseget .get {
+    font-size: 16px;
+  }
+  .body4 .chooseget .house {
+    display: block !important;
+  }
+  .body4 .chooseget .house .any {
+    width: 95%;
+  }
+  .body4 .chooseget .house .any .size {
+    font-size: 18px;
+  }
+  .body4 .chooseget .house .any .anyjob {
+    font-size: 16px;
+  }
+
+  .body5 {
+    display: block !important;
+  }
+  .body5 .body51 {
+    width: 100%;
+  }
+  .body5 .body51 img {
+    width: 94%;
+    margin-left: 3%;
+  }
+  .body5 .body52 {
+    width: 98%;
+    margin-left: 2%;
+  }
+  .body5 .body52 .howdoes .postaproject {
+    width: 17%;
+    font-size: 14px;
+    height: 35px;
+  }
+
+  .body6 {
+    display: block !important;
+  }
+  .body6 .body60 {
+    display: inherit;
+    width: 100%;
+  }
+  .body6 .body60 img {
+    width: 94%;
+    margin-left: 3%;
+  }
+  .body6 .body61 {
+    width: 98%;
+    margin-left: 2%;
+  }
+  .body6 .body61 .mobile {
+    display: block !important;
+    width: 98%;
+  }
+  .body6 .body61 .mobile .life {
+    width: 98%;
+  }
+  .body6 .body61 .mobile .lifee {
+    width: 98%;
+  }
+  .body6 .body61 .mobile .lifee .live {
+    margin-top: -3%;
+  }
+  .body6 .body62 {
+    display: none;
+  }
+
+  .body7 {
+    display: block !important;
+  }
+  .body7 .body71 {
+    width: 100%;
+  }
+  .body7 .body71 img {
+    width: 94%;
+    margin-left: 3%;
+  }
+  .body7 .body72 {
+    width: 98%;
+    margin-left: 2%;
+  }
+  .body7 .body72 .control {
+    font-size: 32px;
+  }
+  .body7 .body72 .control .usecontrol {
+    font-size: 18px;
+  }
+  .body7 .body72 .mobile {
+    display: block !important;
+    width: 98%;
+  }
+  .body7 .body72 .mobile .life {
+    width: 98%;
+  }
+  .body7 .body72 .mobile .lifee {
+    width: 98%;
+    margin-left: 1%;
+  }
+  .body7 .body72 .mobile .lifee .live {
+    margin-top: -3%;
+  }
+
+  .body8 {
+    height: 80vh;
+  }
+
+  .body9 .house .more {
+    height: 10vh;
+  }
+
+  .body10 {
+    height: 100vh;
+  }
+
+  .body11 {
+    margin-top: -1.5%;
+  }
+}
+@media (max-width: 720px) {
+  .header {
+    height: 12%;
+  }
+
+  .play .img {
+    height: 105vh;
+  }
+
+  .body8 {
+    height: 50vh;
+  }
+
+  .body9 .house .housee .laugh {
+    width: 53%;
+  }
+
+  .body10 {
+    height: 70vh;
+  }
+}
+@media (max-width: 667px) {
+  .header {
+    height: 17%;
+  }
+
+  .header2 {
+    margin-top: 9.5%;
+  }
+
+  .play img {
+    height: 150vh;
+  }
+
+  .body8 {
+    height: 70vh;
+  }
+
+  .body9 .house .housee .laugh {
+    width: 58%;
+  }
+
+  .body10 {
+    height: 80vh;
+  }
+}
+@media (max-width: 653px) {
+  .header {
+    height: 22%;
+  }
+
+  .play img {
+    height: 200vh;
+  }
+  .play .playy {
+    margin-top: -42%;
+    width: 95%;
+  }
+  .play .playy .money {
+    width: 60%;
+  }
+  .play .mann .whyspring {
+    margin-top: 23%;
+  }
+
+  .body8 {
+    height: 90vh;
+  }
+
+  .body9 .house .more {
+    height: 12vh;
+  }
+
+  .body10 {
+    height: 120vh;
+  }
+}
+@media (max-width: 540px) {
+  .header {
+    height: 11%;
+  }
+
+  .header2 {
+    margin-top: 14.5%;
+  }
+
+  .play img {
+    height: 90vh;
+  }
+  .play .playy {
+    margin-top: -52%;
+    width: 95%;
+  }
+  .play .playy .money {
+    width: 60%;
+  }
+
+  .body8 {
+    height: 40vh;
+  }
+  .body8 .soso .ss {
+    margin-top: 18%;
+  }
+  .body8 .soso .post {
+    width: 25%;
+    margin-top: 24%;
+  }
+
+  .body9 .house .here {
+    width: 95%;
+  }
+  .body9 .house .housee .laugh {
+    width: 70%;
+  }
+  .body9 .house .housee .laugh img {
+    height: 250px;
+  }
+
+  .body10 {
+    height: 45vh;
+  }
+}
+@media (max-width: 414px) {
+  .header {
+    height: 6%;
+  }
+
+  .header2 {
+    margin-top: 12%;
+  }
+
+  .play img {
+    height: 90vh;
+  }
+  .play .playy {
+    margin-top: -62%;
+  }
+  .play .playy .money .hire {
+    width: 75%;
+  }
+  .play .playy .mann .whyspring {
+    margin-top: 30%;
+  }
+
+  .body5 .body52 .howdoes .postaproject {
+    width: 32%;
+  }
+
+  .body8 {
+    height: 30vh;
+  }
+  .body8 .soso .ss {
+    margin-top: 20%;
+  }
+  .body8 .soso .post {
+    width: 28%;
+    margin-top: 30%;
+  }
+
+  .body9 .house .still {
+    margin-left: 3%;
+  }
+  .body9 .house .here {
+    margin-left: 3%;
+  }
+  .body9 .house .housee .laugh {
+    width: 95%;
+  }
+  .body9 .house .housee .laugh img {
+    margin-left: 2%;
+  }
+  .body9 .house .housee .laugh .design {
+    margin-left: 2%;
+  }
+  .body9 .house .housee .laugh .usd {
+    margin-left: 2%;
+  }
+  .body9 .house .more {
+    width: 40%;
+    height: 6vh;
+  }
+
+  .body10 {
+    height: 40vh;
+  }
+  .body10 .soso {
+    margin-left: 4%;
+  }
+  .body10 .soso .ss {
+    margin-top: 15%;
+  }
+
+  .body11 .home {
+    margin-left: 4%;
+  }
+  .body11 .home .first {
+    width: 80%;
+  }
+  .body11 .home .first .free {
+    font-size: 18px;
+  }
+  .body11 .home .second .free {
+    font-size: 18px;
+  }
+  .body11 .home .second .cat {
+    font-size: 16px;
+  }
+  .body11 .home .sixth .free {
+    font-size: 18px;
+  }
+}
+@media (max-width: 412px) {
+  .header {
+    height: 7%;
+  }
+
+  .header2 {
+    margin-top: 16%;
+    width: 100% !important;
+  }
+}
+@media (max-width: 393px) {
+  .play .playy {
+    margin-top: -65%;
+  }
+
+  .body8 {
+    height: 45vh;
+  }
+  .body8 .soso .so {
+    margin-top: 10%;
+  }
+  .body8 .soso .ss {
+    margin-top: 35%;
+  }
+  .body8 .soso .post {
+    margin-top: 50%;
+  }
+}
+@media (max-width: 390px) {
+  .play .playy {
+    margin-top: -75%;
+  }
+}
+@media (max-width: 375px) {
+  .header {
+    height: 9%;
+  }
+
+  .header2 .head3 {
+    width: 100%;
+    overflow-x: scroll !important;
+  }
+  .header2 .head3 button {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  .play .playy {
+    margin-top: -80%;
+  }
+}
+@media (max-width: 360px) {
+  .header2 {
+    margin-top: 19%;
+  }
+  .header2 .head3 {
+    overflow-x: scroll;
+    width: 90%;
+  }
+
+  .play .playy {
+    margin-top: -85%;
+  }
+}
+@media (max-width: 280px) {
+  .header2 {
+    margin-top: 23.5%;
+  }
+
+  .play img {
+    height: 100vh;
+  }
+  .play .playy {
+    margin-top: -145%;
+    margin-left: 4%;
+  }
+  .play .playy .money .hire {
+    width: 95%;
+  }
+  .play .playy .okay {
+    font-size: 32px;
+  }
+
+  .body5 .body52 .howdoes .postaproject {
+    width: 55%;
+  }
+
+  .body8 {
+    height: 55vh;
+  }
+  .body8 .soso .so {
+    margin-top: 20%;
+  }
+  .body8 .soso .ss {
+    margin-top: 55%;
+  }
+  .body8 .soso .post {
+    margin-top: 75%;
+    width: 50%;
+  }
+
+  .body10 {
+    height: 50vh;
+  }
+}
+
+/*# sourceMappingURL=howitworks.css.map */

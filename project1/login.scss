@@ -1,0 +1,625 @@
+@font-face {
+    font-family:roboto-regular ;
+    src: url(./Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family:roboto-bold;
+    src: url(./Roboto/Roboto-Bold.ttf);
+}
+    body{
+        background-color: #F0F0F0;
+        box-sizing: border-box;
+    }
+
+.mainbody{
+    width: 30%;
+    height: 670px;
+    margin-top: 1%;
+  .shift{
+      width: 100%;
+      height: 95%;
+    img{
+        margin-top: 12%;
+    }
+    .sign{
+        font-family: roboto-regular;
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 2%;
+    }
+    .fb{
+        font-family: roboto-regular;
+        font-size: 20px;
+        font-weight: 700;
+        width: 78%;
+        height: 7%;
+        background-color: #4267B2;
+        margin-top: 8%;
+        .fa-facebook-square{
+            margin-left: 12%;
+            margin-top: 3%;
+            font-size: 23px;   
+        }
+        .cont{
+            margin-left: 5%;
+            margin-top: 2%;
+        }
+    }
+    .or{
+        font-family: roboto-regular;
+        font-size: 13px;
+        font-weight: 700; 
+        margin-top: 6%; 
+    }
+    .email{
+        margin-top:6%;
+    input{
+        width: 78%;
+       height: 45px;
+       font-family: roboto-regular;
+       font-size: 14px;
+       font-weight: 400; 
+       border-color:#F0F0F0;
+       }
+    }
+    .pass{
+        margin-top:1%;
+    input{
+        width: 78%;
+       height: 45px;
+       font-family: roboto-regular;
+       font-size: 14px;
+       font-weight: 400; 
+       border-color:#F0F0F0;
+       }
+}
+.check{
+    width: 78%;
+    margin-top: 3%;
+    input{
+        margin-top: 1%;
+     }
+    label{
+        font-family: roboto-regular;
+        font-size: 13px;
+        font-weight: 400; 
+        margin-left: 1%;
+  }
+}
+.join{
+    font-family: roboto-regular;
+    font-size: 20px;
+    font-weight: 700;
+    width: 78%;
+    height: 7%;
+    background-color:#139FF0;
+    margin-top: 2%;
+    
+    .joinf{
+         margin-left: 40%;
+        margin-top: 2%;
+        
+    }
+}
+.already{
+    margin-top: 9%;
+    font-family: roboto-regular;
+    font-size: 13px;
+    font-weight: 400;
+}
+.get{
+    width: 78%;
+    height: 9%;
+    display: flex;
+    margin-top: 6%;
+    .black{
+width: 45%;
+height: 80%;
+background-color: black;
+border-radius: 5px;
+margin-left: 1%;
+position: relative;
+.fa-apple{
+   color: white;
+   position: absolute;
+   margin-left: -45%;
+   margin-top: 10%;
+}
+.small{
+    font-family: roboto-regular;
+    font-size: 10px;
+    font-weight: 400; 
+    color: white;
+    margin-top: 5%;
+}
+.big{
+    font-family: roboto-regular;
+    font-size: 14px;
+    font-weight: 400; 
+    color: white;
+}
+}
+.blackk{
+    width: 45%;
+    height: 80%;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 5%;
+    position: relative;
+    .fa-play{
+       color: #00D6FF;
+       position: absolute;
+       margin-left: -45%;
+       margin-top: 10%;
+    }
+    .small{
+        margin-top: 5%;
+        font-family: roboto-regular;
+        font-size: 9px;
+        font-weight: 400; 
+        color: white;
+    }
+    .big{
+        font-family: roboto-regular;
+        font-size: 14px;
+        font-weight: 400; 
+        color: white;
+    }
+     }
+    }
+  
+}
+
+  }
+  @media(max-width:1180px){
+    .mainbody{
+        width: 34%;
+    }
+    }
+@media(max-width:1024px){
+.mainbody{
+    width: 40%;
+}
+}
+@media(max-width:914px){
+.mainbody{
+    width: 43%;
+}
+}
+@media(max-width:896px){
+  
+    .mainbody{
+        width:45%;
+      margin-top: 2%;
+       .shift{
+      img{
+          margin-top: 15%;
+      }
+        .sign{
+            font-size: 20px;
+            font-weight: 700;
+          
+        }
+            .fb{
+                width: 80%;
+                margin-top: 8% !important;
+            }
+            .email{
+                margin-top: 8%;
+                input{
+                    width: 80%;  
+                }
+              }
+              .pass{
+                input{
+                    width: 80%;  
+                }
+              }
+              .check{
+                  width: 80%;
+              }
+              .join{
+                width: 80%;
+            }
+            .already{
+                margin-top: 8%;
+            }
+            
+       }
+    }
+}
+@media(max-width:844px){
+    .mainbody{
+        width: 48%;
+    }
+}
+@media(max-width:820px){
+    .mainbody{
+        width: 49%;
+        margin-top: 2%;
+        .fb{
+            width: 82%;
+        }
+      .email{
+        input{
+            width: 82%;  
+        }
+      }
+      .pass{
+        input{
+            width: 82%;  
+        }
+      }
+      .check{
+          width: 82%;
+      }
+     
+    }
+}
+@media(max-width:768px){
+    .mainbody{
+        width: 52%;
+        margin-top: 2%;
+    }
+}
+@media(max-width:740px){
+    body{
+        background-color: white;
+    }
+    .shift{
+        margin-top: 16%;
+    }
+}
+@media(max-width:720px){
+    body{
+        background-color: white;
+    }
+.mainbody{
+    width: 100%;
+    margin-top: -3%; 
+    .sign{
+        margin-top: 1%;
+    }
+    .fb{
+        width: 45%;
+        margin-top: 4%;
+        height: 7%;     
+        .fa-facebook-square{
+            margin-left: 11%;
+            margin-top: 3%;
+            font-size: 23px;   
+        }
+        .cont{
+            margin-left: 6%;
+        }
+    }
+    .or{ 
+        margin-top: 3%; 
+    }
+    .email{
+        margin-top:3%;
+    input{
+        width: 45%;
+       }
+    }
+    .pass{
+        margin-top:0%;
+    input{
+        width: 45%;
+       }
+}
+.check{
+    width: 45%;
+    margin-top: 1%;
+    input{
+        margin-top: 1%;
+     }
+}
+.join{
+    width: 45%;
+    margin-top: 2%;
+}
+.already{
+    margin-top: 6%;
+}
+
+}
+}
+@media(max-width:667px){
+    body{
+        background-color: white;
+    }
+    .mainbody{
+       .shift{
+        margin-top: 0%;
+        .sign{
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 2%;
+        }
+            .fb{
+                margin-top: 5%;
+                width: 48%;
+            }
+            .email{
+                input{
+                    width: 48%;  
+                }
+              }
+              .pass{
+                input{
+                    width: 48%;  
+                }
+              }
+              .check{
+                  width: 48%;
+              }
+              .join{
+                  width: 48%;
+              }
+              .get{
+                  width: 50%;
+                //   .black{
+                //       width: ;
+                //   }
+              }
+            
+       }
+    }
+}
+@media(max-width:653px){
+    body{
+        background-color: white;
+    }
+.mainbody{
+    width: 100%;
+    margin-top: 0%;
+    img{
+        margin-top: 10%;
+    }
+    .sign{
+        margin-top: 1%;
+    }
+    .fb{
+        width: 49%;
+        margin-top: 5%;
+    }
+    .or{ 
+        margin-top: 3%; 
+    }
+    .email{
+        margin-top:4%;
+    input{
+        width: 49%;
+       }
+    }
+    .pass{
+        margin-top:0%;
+    input{
+        width: 49%;
+       }
+}
+.check{
+    width: 49%;
+    input{
+        margin-top: 0%;
+     }
+}
+.join{
+    width: 49%;
+    margin-top: 1%;
+}
+.already{
+    margin-top: 6%;
+}
+
+}
+}
+@media(max-width:540px){
+    body{
+        background-color: white;
+    }
+.mainbody{
+    width: 100%;
+    margin-top: 1%; 
+    .sign{
+        margin-top: 2%;
+    }
+    .fb{
+        width: 60%;
+        margin-top: 6%;
+        height: 7%;     
+        .fa-facebook-square{
+            margin-left: 11%;
+            margin-top: 3%;
+            font-size: 23px;   
+        }
+        .cont{
+            margin-left: 6%;
+        }
+    }
+    .or{ 
+        margin-top: 4%; 
+    }
+    .email{
+        margin-top:5%;
+    input{
+        width: 60%;
+       }
+    }
+    .pass{
+        margin-top:0%;
+    input{
+        width: 60%;
+       }
+}
+.check{
+    width: 60%;
+    input{
+        margin-top: 1%;
+     }
+}
+.join{
+    width: 60%;
+    margin-top: 2%;
+}
+.already{
+    margin-top: 6%;
+}
+
+}
+}
+@media(max-width:521px){
+    // .mainbody{
+    //     .shift{
+    //         .fb{
+
+    //         }
+    //     }
+    // }
+}
+@media(max-width:414px){
+  
+    .mainbody{
+      
+       .shift{
+      
+      
+            .fb{
+                width: 79%;
+            }
+            .email{
+                input{
+                    width: 79%;  
+                }
+              }
+              .pass{
+                input{
+                    width: 79%;  
+                }
+              }
+              .check{
+                  width: 79%;
+              }
+              .join{
+                  width: 79%;
+              }
+            
+       }
+    }
+}
+@media(max-width:412px){
+    .shift{
+        margin-top: 6%;
+        .fb{
+            width: 78%;
+        }
+      .email{
+        input{
+            width: 78%;  
+        }
+      }
+      .pass{
+        input{
+            width: 78%;  
+        }
+      }
+      .check{
+          width: 78%;
+      }
+      .join{
+          width: 78%;
+      }
+    }
+
+}
+@media(max-width:375px){
+   .mainbody{
+    .shift{
+        margin-top: 8%;
+    }
+   }
+}
+@media(max-width:360px){
+    .mainbody{
+        .fb{
+            width: 90%;
+        }
+        .email{
+            input{
+                width: 90%;  
+            }
+          }
+          .pass{
+            input{
+                width: 90%;  
+            }
+          }
+          .check{
+              width: 90%;
+          }
+    }
+}
+@media(max-width:280px){
+    body{
+        background-color: white;
+    }
+.mainbody{
+    width: 100%;
+    margin-top: 12%;
+    
+    .sign{
+        margin-top: 3%;
+        font-family: 700;
+        font-size: 20px;
+    }
+    .fb{
+        width: 90%;
+        margin-top: 12%;
+        height: 10%;
+        font-family: 700;
+        font-size: 20px;
+        .fa-facebook-square{
+            margin-left: 10%;
+            margin-top: 8%;
+            font-size: 23px;   
+        }
+        .cont{
+            margin-left: -2%;
+            margin-top:1%;
+        }
+    }
+    .or{ 
+        margin-top: 8%; 
+    }
+    .email{
+        margin-top:10%;
+    input{
+        width: 90%;
+       }
+    }
+    .pass{
+        margin-top:0%;
+    input{
+        width: 90%;
+       }
+}
+.check{
+    width: 90%;
+    input{
+        margin-top: 1%;
+     }
+}
+.join{
+    width: 90%;
+    margin-top: 4%;
+}
+.already{
+    margin-top: 11%;
+}
+
+}
+}
+input{
+    outline: none;
+}  

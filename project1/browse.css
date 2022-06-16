@@ -1,0 +1,910 @@
+@font-face {
+  font-family: roboto-regular;
+  src: url(./Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: roboto-bold;
+  src: url(./Roboto/Roboto-Bold.ttf);
+}
+html, body {
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F0F0F0;
+}
+
+.header {
+  box-shadow: 0px 0px 1px black;
+  height: 11%;
+  width: 100% !important;
+  z-index: 2;
+  position: fixed;
+  background-color: white;
+  top: 0px;
+}
+.header a {
+  text-decoration: none;
+  color: black;
+}
+.header a:hover {
+  color: skyblue;
+}
+.header div {
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 16px;
+}
+.header .head1 {
+  margin-left: 7%;
+}
+.header .head1 img {
+  margin-top: -2%;
+}
+.header .head1 img, .header .head1 div {
+  margin-right: 40px;
+}
+.header .head1 img:hover, .header .head1 div:hover {
+  color: skyblue;
+}
+.header .head2 {
+  margin-right: 7%;
+}
+.header .head2 div {
+  margin-right: 40px;
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 2%;
+}
+.header .head2 div:hover {
+  color: skyblue;
+}
+
+.header2 {
+  height: 14vh;
+  background-color: #007FED;
+  margin-top: 5%;
+}
+.header2 .head3 {
+  font-family: roboto-bold;
+  font-weight: 700;
+  font-size: 32px;
+  color: white;
+  margin-left: 6.5%;
+}
+.header2 .head4 {
+  margin-left: 57%;
+}
+.header2 .head4 .hire {
+  width: 135px;
+  height: 5vh;
+  background-color: #f50996;
+  font-family: roboto-regular;
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+}
+.header2 .head4 .hire:hover {
+  background-color: #FA5F9B;
+}
+.header2 .head4 .work {
+  width: 135px;
+  height: 5vh;
+  border: 1px solid white;
+  font-family: roboto-regular;
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+  margin-left: 4%;
+}
+.header2 .head4 .work:hover {
+  background-color: #3399F1;
+}
+
+.body3 {
+  height: 8vh;
+  color: #50565c;
+}
+.body3 i {
+  margin-left: 0.5%;
+}
+.body3 .j {
+  margin-left: 6.5%;
+}
+.body3 div {
+  margin-left: 1%;
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.body4 {
+  background-color: white;
+  width: 87.4%;
+  position: relative;
+  left: 6.5%;
+  height: 10vh;
+  background-color: white;
+}
+.body4 input:focus, .body4 textarea:focus, .body4 select:focus {
+  outline: none;
+}
+.body4 .search {
+  width: 40%;
+}
+.body4 .search i {
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 1%;
+  color: #a09b9b;
+}
+.body4 .search input {
+  border: none;
+  width: 100%;
+  font-family: roboto-regular;
+  font-size: 14px;
+  font-weight: 400;
+  height: 10vh;
+  margin-left: 6%;
+}
+.body4 .location {
+  width: 35%;
+}
+.body4 .location i {
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 6%;
+  color: #a09b9b;
+}
+.body4 .location input {
+  height: 10vh;
+  border: none;
+  width: 100%;
+  font-family: roboto-regular;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 20%;
+}
+.body4 .searchh {
+  width: 110px;
+  height: 8vh;
+  background-color: #007FED;
+  font-family: roboto-regular;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  margin-left: 15%;
+  margin-top: 1vh;
+}
+.body4 .searchh:hover {
+  background-color: #139FF0;
+}
+
+.bigb {
+  margin-top: 2.5%;
+  width: 100%;
+  height: 630vh;
+}
+.bigb .body5 {
+  width: 20%;
+  background-color: white;
+  height: 198vh;
+  left: 6.5%;
+  position: absolute;
+}
+.bigb .body5 input:focus, .bigb .body5 textarea:focus, .bigb .body5 select:focus {
+  outline: none;
+}
+.bigb .body5 .recent {
+  margin-left: 6%;
+  margin-top: 4%;
+  position: absolute;
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 20px;
+  height: 70px;
+}
+.bigb .body5 .filter {
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 6%;
+  margin-top: 35%;
+}
+.bigb .body5 .budget {
+  font-family: roboto-bold;
+  font-weight: 700;
+  font-size: 16px;
+  position: absolute;
+  margin-left: 6%;
+  margin-top: 52%;
+}
+.bigb .body5 .check {
+  width: 78%;
+  margin-top: 63%;
+  margin-left: 6%;
+}
+.bigb .body5 .check input {
+  margin-top: 1.5%;
+}
+.bigb .body5 .check label {
+  font-family: roboto-regular;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 3%;
+}
+.bigb .body5 .price {
+  width: 90%;
+  margin-left: 6%;
+}
+.bigb .body5 .price input {
+  width: 35%;
+  height: 35px;
+}
+.bigb .body5 .price span {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.bigb .body5 .hour {
+  width: 78%;
+  margin-top: 10%;
+  margin-left: 6%;
+}
+.bigb .body5 .hour input {
+  margin-top: 1.5%;
+}
+.bigb .body5 .hour label {
+  font-family: roboto-regular;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 3%;
+}
+.bigb .body5 .selectt {
+  margin-top: 5%;
+  width: 90%;
+  margin-left: 6%;
+}
+.bigb .body5 .selectt select {
+  width: 97%;
+  height: 30px;
+}
+.bigb .body5 .contest {
+  width: 78%;
+  margin-top: 9%;
+  margin-left: 6%;
+}
+.bigb .body5 .contest input {
+  margin-top: 1.5%;
+}
+.bigb .body5 .contest label {
+  font-family: roboto-regular;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 3%;
+}
+.bigb .body5 .type {
+  font-family: roboto-bold;
+  font-weight: 700;
+  font-size: 16px;
+  position: absolute;
+  margin-left: 6%;
+  margin-top: 15%;
+}
+.bigb .body5 .local {
+  width: 78%;
+  margin-top: 28%;
+  margin-left: 6%;
+}
+.bigb .body5 .local input {
+  margin-top: 1.5%;
+}
+.bigb .body5 .local label {
+  font-family: roboto-regular;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 3%;
+}
+.bigb .body5 .featured {
+  width: 78%;
+  margin-left: 6%;
+}
+.bigb .body5 .featured input {
+  margin-top: 1.5%;
+}
+.bigb .body5 .featured label {
+  font-family: roboto-regular;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 3%;
+}
+.bigb .body5 .locall {
+  width: 78%;
+  margin-top: 28%;
+  margin-left: 6%;
+}
+.bigb .body5 .locall input {
+  margin-top: 1.5%;
+}
+.bigb .body5 .locall label {
+  font-family: roboto-bold;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 3%;
+}
+.bigb .body5 .featuredd {
+  width: 78%;
+  margin-left: 6%;
+}
+.bigb .body5 .featuredd input {
+  margin-top: 1.5%;
+}
+.bigb .body5 .featuredd label {
+  font-family: roboto-bold;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 3%;
+}
+.bigb .body5 .selector {
+  width: 90%;
+  margin-left: 6%;
+}
+.bigb .body5 .selector input {
+  width: 97%;
+  height: 30px;
+}
+.bigb .body6 {
+  width: 65%;
+  background-color: white;
+  height: 600vh;
+  left: 29%;
+  position: absolute;
+}
+.bigb .body6 input:focus, .bigb .body6 textarea:focus, .bigb .body6 select:focus {
+  outline: none;
+}
+.bigb .body6 .header1 {
+  height: 12vh;
+  box-shadow: 0px 0px 1px #ddd;
+  width: 100%;
+}
+.bigb .body6 .header1 .selectt {
+  margin-top: 2.5%;
+  width: 24%;
+  margin-left: 2%;
+}
+.bigb .body6 .header1 .selectt select {
+  width: 97%;
+  height: 35px;
+}
+.bigb .body6 .header1 .jfound {
+  margin-top: 3.5%;
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 14px;
+}
+.bigb .body6 .header1 .pagination {
+  display: inline-block;
+  margin-top: 2%;
+  margin-left: 14%;
+}
+.bigb .body6 .header1 .pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+}
+.bigb .body6 .header1 .pagination a.active {
+  background-color: #007FED;
+  color: white;
+  border: 1px solid #007FED;
+}
+.bigb .body6 .header1 .pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+.bigb .body6 .b1 {
+  height: 33vh;
+  box-shadow: 0px 0px 1px rgb(197, 190, 190);
+  width: 100%;
+}
+.bigb .body6 .b1:hover {
+  background-color: #F7F7F7;
+}
+.bigb .body6 .b1 .logo {
+  font-family: roboto-bold;
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+.bigb .body6 .b1 .logo:hover {
+  color: #139FF0;
+}
+.bigb .body6 .b1 .days6 {
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 1%;
+  margin-top: 3%;
+}
+.bigb .body6 .b1 .d1 {
+  font-family: roboto-bold;
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 51%;
+  margin-top: 3%;
+}
+.bigb .body6 .b1 .d2 {
+  font-family: roboto-bold;
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 56%;
+  margin-top: 3%;
+}
+.bigb .body6 .b1 .d5 {
+  font-family: roboto-bold;
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 58%;
+  margin-top: 3%;
+}
+.bigb .body6 .b1 .avg {
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 0.5%;
+  margin-top: 3%;
+}
+.bigb .body6 .b1 .look {
+  margin-left: 3%;
+  width: 72%;
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 1%;
+}
+.bigb .body6 .b1 .bid31 {
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+.bigb .body6 .b1 .bum {
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.bigb .body6 .b1 .bum a {
+  margin-left: 1.5%;
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 14px;
+}
+.bigb .body6 .b3 {
+  height: 23vh;
+  box-shadow: 0px 0px 1px rgb(197, 190, 190);
+  width: 100%;
+}
+.bigb .body6 .b3:hover {
+  background-color: #F7F7F7;
+}
+.bigb .body6 .b3 .logo {
+  font-family: roboto-bold;
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+.bigb .body6 .b3 .logo:hover {
+  color: #139FF0;
+}
+.bigb .body6 .b3 .days6 {
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 1%;
+  margin-top: 3%;
+}
+.bigb .body6 .b3 .d6 {
+  font-family: roboto-bold;
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 42.5%;
+  margin-top: 3%;
+}
+.bigb .body6 .b3 .avg {
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 0.5%;
+  margin-top: 3%;
+}
+.bigb .body6 .b3 .look {
+  margin-left: 3%;
+  width: 72%;
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 1%;
+}
+.bigb .body6 .b3 .bid31 {
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+.bigb .body6 .b3 .bum {
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.bigb .body6 .b3 .bum a {
+  margin-left: 1.5%;
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 14px;
+}
+.bigb .body6 .b2 {
+  height: 30vh;
+  box-shadow: 0px 0px 1px rgb(197, 190, 190);
+  width: 100%;
+}
+.bigb .body6 .b2:hover {
+  background-color: #F7F7F7;
+}
+.bigb .body6 .b2 .logo {
+  font-family: roboto-bold;
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+.bigb .body6 .b2 .logo:hover {
+  color: #139FF0;
+}
+.bigb .body6 .b2 .days6 {
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 1%;
+  margin-top: 3%;
+}
+.bigb .body6 .b2 .d5 {
+  font-family: roboto-bold;
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 40%;
+  margin-top: 3%;
+}
+.bigb .body6 .b2 .avg {
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 0.5%;
+  margin-top: 3%;
+}
+.bigb .body6 .b2 .look {
+  margin-left: 3%;
+  width: 72%;
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 1%;
+}
+.bigb .body6 .b2 .bid31 {
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+.bigb .body6 .b2 .bum {
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.bigb .body6 .b2 .bum a {
+  margin-left: 1.5%;
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 14px;
+}
+.bigb .body6 .b2 .d6 {
+  font-family: roboto-bold;
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 13%;
+  margin-top: 3%;
+}
+.bigb .body6 .body7 .header1 {
+  height: 12vh;
+  box-shadow: 0px 0px 1px #ddd;
+  width: 100%;
+}
+.bigb .body6 .body7 .header1 .selectt {
+  margin-top: 3.5%;
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 0%;
+}
+.bigb .body6 .body7 .header1 .selecttt {
+  margin-top: 2.5%;
+  width: 7%;
+  margin-left: 3%;
+}
+.bigb .body6 .body7 .header1 .selecttt select {
+  width: 97%;
+  height: 35px;
+}
+.bigb .body6 .body7 .header1 .jfound {
+  margin-top: 3.5%;
+  font-family: roboto-regular;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 19%;
+}
+.bigb .body6 .body7 .header1 .pagination {
+  display: inline-block;
+  margin-top: 2%;
+  margin-left: 1%;
+}
+.bigb .body6 .body7 .header1 .pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+}
+.bigb .body6 .body7 .header1 .pagination a.active {
+  background-color: #007FED;
+  color: white;
+  border: 1px solid #007FED;
+}
+.bigb .body6 .body7 .header1 .pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.body8 {
+  height: 66vh;
+  background-color: #161E2C;
+}
+.body8 .home {
+  width: 93%;
+  margin-left: 7%;
+}
+.body8 .home .first {
+  margin-top: 1%;
+  width: 14%;
+  margin-right: 2%;
+}
+.body8 .home .first img {
+  width: 130px;
+  height: 80px;
+}
+.body8 .home .first .us {
+  font-family: roboto-regular;
+  font-size: 14px;
+  font-weight: 400;
+}
+.body8 .home .first i {
+  margin-right: 8%;
+  margin-top: 1%;
+  font-size: 22px;
+}
+.body8 .home .second {
+  margin-top: 3.5%;
+  width: 15%;
+  margin-right: 1%;
+}
+.body8 .home .second .free {
+  font-family: roboto-bold;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 3%;
+}
+.body8 .home .second .cat {
+  font-family: roboto-regular;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 3%;
+  color: #b9b3b3;
+}
+.body8 .home .second .cat:hover {
+  color: white;
+}
+.body8 .home .sixth {
+  margin-top: 3.5%;
+  width: 15%;
+  margin-right: 1%;
+}
+.body8 .home .sixth .free {
+  font-family: roboto-bold;
+  font-size: 16px;
+  font-weight: 700;
+}
+.body8 .home .sixth .get {
+  height: 9%;
+  margin-top: 6%;
+}
+.body8 .home .sixth .get .black {
+  width: 65%;
+  height: 7vh;
+  border: 1px solid white;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 10%;
+}
+.body8 .home .sixth .get .black .fa-apple {
+  color: white;
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 6%;
+  font-size: 30px;
+}
+.body8 .home .sixth .get .black .small {
+  font-family: roboto-regular;
+  font-size: 9px;
+  font-weight: 400;
+  color: white;
+  margin-top: 5%;
+  margin-left: 30%;
+}
+.body8 .home .sixth .get .black .big {
+  margin-left: 3%;
+  font-family: roboto-regular;
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+}
+.body8 .home .sixth .get .blackk {
+  width: 65%;
+  height: 7vh;
+  border: 1px solid white;
+  border-radius: 5px;
+  position: relative;
+}
+.body8 .home .sixth .get .blackk .fa-play {
+  color: #00D6FF;
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 6%;
+  font-size: 30px;
+}
+.body8 .home .sixth .get .blackk .small {
+  font-family: roboto-regular;
+  font-size: 9px;
+  font-weight: 400;
+  color: white;
+  margin-top: 5%;
+  margin-left: 30%;
+}
+.body8 .home .sixth .get .blackk .big {
+  margin-left: 3%;
+  font-family: roboto-regular;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+.body8 .home .sixth .social i {
+  color: white;
+  font-size: 20px;
+  margin-right: 15%;
+  margin-top: 60%;
+}
+.body8 .home .sixth .social i:hover {
+  color: blue;
+}
+
+@media (max-width: 1280px) {
+  .header {
+    width: 100% !important;
+  }
+
+  .header2 {
+    margin-top: 6%;
+  }
+  .header2 .head3 {
+    margin-left: 4.5%;
+  }
+
+  .body3 .j {
+    margin-left: 4.5%;
+  }
+
+  .body4 {
+    left: 4.5%;
+    width: 92%;
+    height: 8vh;
+  }
+  .body4 .search input {
+    height: 8vh;
+  }
+  .body4 .location input {
+    height: 8vh;
+  }
+  .body4 .searchh {
+    height: 7vh;
+    margin-top: 0.4%;
+    margin-left: 15%;
+  }
+
+  .bigb .body5 {
+    width: 21%;
+    left: 4.5%;
+  }
+  .bigb .body6 {
+    width: 68%;
+    left: 28%;
+  }
+}
+@media (max-width: 1024px) {
+  .header {
+    width: 100% !important;
+  }
+
+  .header2 {
+    margin-top: 6%;
+  }
+  .header2 .head3 {
+    margin-left: 1%;
+  }
+
+  .body3 .j {
+    margin-left: 1%;
+  }
+
+  .body4 {
+    left: 1%;
+    width: 98%;
+    height: 10vh;
+  }
+  .body4 .search input {
+    height: 10vh;
+  }
+  .body4 .location input {
+    height: 10vh;
+  }
+  .body4 .searchh {
+    height: 8vh;
+    margin-top: 0.7%;
+    margin-left: 13.5%;
+  }
+
+  .bigb .body5 {
+    width: 23%;
+    left: 1%;
+    height: 220vh;
+  }
+  .bigb .body6 {
+    width: 73%;
+    left: 26%;
+  }
+  .bigb .body6 .selectt {
+    display: none;
+  }
+  .bigb .body6 .jfound {
+    margin-left: 4%;
+  }
+  .bigb .body6 .pagination {
+    margin-left: 28%;
+  }
+  .bigb .body6 .b1 .avg {
+    margin-left: 2%;
+  }
+  .bigb .body6 .b1 .bid31 {
+    margin-left: 8%;
+  }
+  .bigb .body6 .b2 .avg {
+    margin-left: 0%;
+  }
+  .bigb .body6 .b2 .bid31 {
+    margin-left: 8%;
+  }
+}
+
+/*# sourceMappingURL=browse.css.map */
